@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Creative Alignments | Ru Ru Jog</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<script type="text/javascript" src="js/browserDetection.js"></script>
+<script type="text/javascript">
+    // add separate style sheet for chrome or firefox because web fonts dont look good in these non-anti-alias browsers
+
+    if (BrowserDetect.OS == 'Windows' && (BrowserDetect.browser == 'Firefox' || BrowserDetect.browser == 'Chrome')) {
+
+        //alert("You are using Windows and Firefox/Chrome");
+
+        document.write('<link rel="stylesheet" type="text/css" href="commonChromeFirefox.css" />')
+        document.write('<link rel="stylesheet" type="text/css" href="navChromeFirefox.css" />');
+    }
+    else {
+        document.write('<link rel="stylesheet" type="text/css" href="commonNew.css" />')
+        document.write('<link rel="stylesheet" type="text/css" href="navNew.css" />');
+    }
+
+</script>
+
+<link href="jcarousel.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+    
+<script type="text/javascript" language="javascript">
+
+    jQuery(document).ready(function () {
+
+        jQuery('#mycarousel').jcarousel({
+            wrap: 'circular',
+            visible: 3,
+            scroll: 3,
+            auto: 3,
+            animation: 1100,
+            size: 22
+        });
+    });
+
+    function redirect(url) {  
+        location.href = url;  
+    }
+
+</script>
+
+<script type="text/javascript" language="javascript" src="js/ypSlideOutMenusC.js"></script>
+<script type="text/javascript" language="javascript">
+    //This sets the size and position of each drop-down for all others- left, top, width, height.
+    new ypSlideOutMenu("menu1", "down", 332, 0, 516, 30);
+    new ypSlideOutMenu("menu2", "down", 198, 0, 680, 30);
+    new ypSlideOutMenu("menu3", "down", 444, 0, 260, 30);
+</script>
+
+<script type="text/javascript" src="//use.typekit.net/dvf0zmt.js"></script>
+<script type="text/javascript">    try { Typekit.load(); } catch (e) { }</script>
+
+</head>
+
+<body id="services">
+
+<div id="homecontainer">
+
+    <div id="header">
+        <div id="logo"><a href="index.html" class="home"><img src="images/creative_alignments_logo.jpg" alt="creative alignments"/></a></div>
+
+        <div id="navigation" onmouseout="showCurrentMenu();">        
+            <div style="float:left;"><img src="images/nav_bkgrd_left2.gif" alt="" /></div>
+            <div class="nav">
+               <div id="index-cell" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();"><a href="index.html" class="index" >HOME</a></div>
+               <div id="services-cell"><a href="services.html" class="services">SERVICES</a></div>
+               <div id="aboutus-cell" onmouseover="hideCurrentMenu();ypSlideOutMenu.showMenu('menu1');" onmouseout="ypSlideOutMenu.hideMenu('menu1');showDelayedCurrentMenu();"><a href="about.html" class="aboutus">ABOUT</a></div>
+               <div id="portfolio-cell" onmouseover="hideCurrentMenu();ypSlideOutMenu.showMenu('menu3')" onmouseout="ypSlideOutMenu.hideMenu('menu3');showDelayedCurrentMenu();"><a href="clients.html" class="portfolio">CLIENTS</a></div>
+               <div id="contactus-cell" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();"><a href="contact.html" class="contactus">CONTACT</a></div>
+               <div id="openpositions-cell" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();" style="background-image:url(images/nav_bkgrd_middle_open.gif);background-repeat:repeat-x;"><a href="featured_jobs.html" class="openpositions">FEATURED JOBS</a></div>
+            </div>
+            <div style="float:right;"><img src="images/nav_bkgrd_right2.gif" alt="" /></div>
+        </div>
+
+        <div id="subnav">
+        
+        <div id="menu1Container" style="visibility: hidden;height:28px; "> 
+            <div id="menu1Content" class="dropmenu" style="background-color:#a9343a;height:28px;"> 
+                <div class="options">
+	                <div onclick="redirect('our_story.html');" class="subnav" style="width:150px;clear:left;" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();">OUR STORY</div>
+                    <div onclick="redirect('our_team.html');" class="subnav" style="width:155px;" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();">OUR TEAM</div>
+                    <div onclick="redirect('our_alliances.html');" class="subnav" style="width:180px;" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();">OUR ALLIANCES</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="currentMenu" style="display:block;z-index:0;padding-left:198px;height:28px;width:456px;"> 
+            <div id="menu2Content" class="dropmenu" style="background-color:#a9343a;height:28px;"> 
+                <div class="options">
+	                <div onclick="redirect('ruru_run.html');" class="subnav" style="width:180px;clear:left;">RAMPING UP NOW</div>
+                    <div onclick="redirect('ruru_jog.html');" class="subnav" style="width:260px;background-color:#a9343a;color: White;">JUGGLING ORDINARY GROWTH</div>
+                    <div onclick="redirect('ruru_walk.html');" class="subnav" style="width:210px;">WHILE ALL LOOKS KALM</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="menu3Container" style="visibility: hidden;height:28px; "> 
+            <div id="menu3Content" class="dropmenu" style="background-color:#a9343a;height:28px;"> 
+                <div class="options">
+	                <div onclick="redirect('clients_say.html');" class="subnav" style="width:250px;clear:left;" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();">WHAT OUR CLIENTS SAY</div>
+                    <!--<div onclick="redirect('case_studies.html');" class="subnav" style="width:165px;" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();">CASE STUDIES</div>-->
+                </div>
+            </div>
+        </div>
+        
+        
+        </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div id="main" style="">
+
+    	<div id="innerMain" style="">
+
+            <div id="innerinnerMain" style="padding-bottom:45px; ">
+
+            <div style="float:left;width:100%;padding-top:40px; background-image:url('images/ruru/ruru_jog.jpg'); background-position:bottom right; background-repeat:no-repeat;">
+
+            <div style="clear:left;padding-top:2px;padding-bottom:2px;"><h1 style="padding-bottom:10px;">J.O.G.</h1><h1 style="padding-top:0px;">R U Juggling Ordinary Growth?</h1></div>
+
+             <div style="clear:left;width:360px;"><h6><b>If your company is looking to hire 1, 2, 5, or perhaps even 10 new people this year, we can be your go-to recruiting resource.<!--If your company is looking to hire 1, 2, 5, or perhaps even 10 new people this year, we can help you in a variety of ways. Once we visit with you to understand your needs, we will suggest how we can best support you.--></b></h6></div>
+
+            </div>
+
+            <div style="clear:left;padding-top:25px;width:745px;">
+            Some of our J.O.G. clients choose to outsource their complete hiring process to us, while others draw on our expertise and networks for specific aspects of the process. Perhaps you would like to have us expand your applicant pool by skillfully sourcing passive candidates. Or perhaps you are flooded with resumes and would like our experts to sift and sort and find the gems. Or maybe you'd like us to conduct phone screens and initial interviews.
+            <!--<h4>Organizational Needs Assessment</h4>-->            <!--Some of our J.O.G. clients choose to outsource their complete hiring process to us, while others draw on our expertise and networks for specific aspects of the process. Perhaps you would like to have us expand your applicant pool by skillfully sourcing passive candidates. Or perhaps you are flooded with resumes and would like our experts to sift and sort and find the gems. You might want us to do phone screens and initial interviews.--><br /><br />            
+            A J.O.G. engagement with us might look like this: <br /><br />
+
+            <ul>
+            <li>We ensure that we clearly understand your business and recruiting needs.</li>
+            <li>We write clear, targeted job descriptions.</li>
+            <li>We search for candidates in a highly strategic manner, using a full array of search tools and our extensive networks.</li>
+            <li>We creatively find talent and reach outside the box to source candidates who may not otherwise have applied for the job.</li>
+            <li>We screen and interview potential candidates prior to introduction to you -- our client.</li>
+            <li>We keep track of all candidate activity and share the activity report with our clients throughout the process.</li>
+            <li>We coordinate client-side interviews and feedback to candidates.</li>
+            <li>We check candidate references and facilitate background checks.</li>
+            <li>We help write and present offer letters and coordinate an overall on-boarding plan.</li>
+            <li>We provide ongoing consulting expertise and support as desired.</li>
+            </ul>
+
+            <!--
+            <ul>
+            <li>We ensure that we clearly understand your business and recruiting needs. </li>
+            <li>We write clear, targeted job descriptions.</li>
+            <li>We search for candidates in a highly strategic manner, using a full array of search tools and our extensive networks.</li>
+            <li>We creatively find talent and reach outside the box to source candidates who may not otherwise have applied for the job. </li>
+            <li>We screen and interview potential candidates prior to introductions to the client.</li>
+            <li>We keep track of all candidate activity and share the activity report with our clients throughout the process.</li>
+            <li>We coordinate client-side interviews and feedback to candidates.</li>
+            <li>We check candidate references and facilitate background checks.</li>
+            <li>We help write and present offer letters and coordinate an overall on-boarding plan.</li>
+            <li>We provide ongoing consulting expertise and support as desired.</li>
+            </ul>-->
+            
+            </div>
+
+
+            </div><!-- end of innerinnermain container -->
+
+    
+
+   
+                   <!-- Footer -->
+                   <div id="footerspacer" style="clear:both;width:100%;height:28px;padding-top:0px;background-color:#e8a61c;">
+                    <div style="padding-top:6px;">
+                       <div id="phone" style="line-height:18px;">303.835.9066</div>
+                       <div id="email"><a href="mailto:info@creativealignments.com" style="text-decoration:none;line-height:18px;">info@creativealignments.com</a></div>
+                       <div id="address" style="line-height:18px;">4760 Walnut St, Suite 106, Boulder, CO 80301</div>
+                       <div id="copyright" style="line-height:18px;">&#169; 2013 Creative Alignments</div>
+                       </div>
+                   </div>
+
+              </div><!-- end of innermain container -->
+
+   </div><!-- end of main container -->
+
+   <!-- Social Media -->
+   <div style="clear:left;padding-left:20px;padding-top:18px;">
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://www.facebook.com/pages/Creative-Alignments/195434367163626?ref=tn_tinyman"><img src="images/facebook.jpg" /></a></div>
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://twitter.com/#!/CArecruiting"><img src="images/twitter.jpg" /></a></div>
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://www.linkedin.com/company/creative-alignments"><img src="images/linkedin.jpg" /></a></div>
+   </div>
+
+</div><!-- End of homecontainer -->
+
+</body>
+</html>

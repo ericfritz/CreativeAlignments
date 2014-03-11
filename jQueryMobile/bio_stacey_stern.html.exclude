@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <title>Creative Alignments | Stacey Stern</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="css/themes/CreativeAlignments.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile.structure-1.3.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).bind("mobileinit", function () {
+            $.mobile.loadingMessage = false;
+        });
+
+        function redirect(url) {
+            location.href = url;
+        }
+    </script> 
+
+    <style type="text/css">
+    /* override style */
+    
+.ui-header .ui-title, .ui-footer .ui-title {
+    /*font-size:20px;*/
+    /* top right/left bottom */
+    margin: 0.6em 2% 0.8em;
+}
+
+.ui-header-fixed, .ui-footer-fixed {
+    /*position: relative;*/
+}
+    
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+    <div data-role="page" data-theme="a">
+
+
+    <div data-role='header' style="">  
+        <!-- <h1>Creative Alignments</h1> -->
+        <img src="../images/creative_alignments_logo.jpg" onclick="redirect('index.html')" style="width:100%;border:0;" />
+    </div>
+
+	<div data-role="content" style="clear:left; background-color:White;">
+
+
+            <div><h2 style="color:#0075b4;">Stacey Stern</h2></div>
+
+                    
+            <div style="clear:left;width:100%;padding-bottom:20px;">
+                    <h4>Director of Business Development</h4>
+                    Stacey brings a rich and diverse background to Creative Alignments where she marries her love of good business with her desire to help others enjoy fulfilling work lives. Her professional experience spans the non-profit, governmental, corporate, business consulting, and media arenas. Early in her career, Stacey raised millions of dollars for social change and environmental protection at People For the American Way and The Nature Conservancy. She later ran her own consulting practice with a focus on socially responsible businesses. In addition, Stacey created and hosted The Stacey Stern Show – Enriching You, a radio show featuring men and women who make great things happen in film, books, new media, business, and social action. <br /><br />
+
+Stacey engages in the ongoing art of attaining work-life balance. Some of her favorite outside-of-work activities include being with her two sons, hiking, dancing, biking, reading, and watching good movies. Stacey graduated magna cum laude from Duke University with a Bachelor of Arts degree in political science and women’s studies. 
+
+
+<br /><br />
+                    Email at <a href="mailto:stacey@creativealignments.com">stacey@creativealignments.com</a>  
+                    </div>
+
+
+
+            <div style="clear:left;width:100%;height:25px;"></div>
+
+                     <div style="width:100%;"><div style="margin: 0 auto;"><a href="our_team.html" target='_self' data-role='button' data-inline='true' data-mini='true' data-icon='arrow-l' data-theme='a'>back to team</a></div></div>
+
+            <div style="clear:left;width:100%;height:25px;"></div>
+
+
+	</div>
+
+    <div data-role="footer" data-theme="b">
+
+        <h1 id="footer">&#169; 2013 Creative Alignments</h1>
+
+    </div><!-- /footer -->
+
+    </div><!-- /page -->
+
+
+    </form>
+</body>
+</html>

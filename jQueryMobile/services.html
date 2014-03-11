@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <title>Creative Alignments | Services</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="css/themes/CreativeAlignments.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile.structure-1.3.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).bind("mobileinit", function () {
+            $.mobile.loadingMessage = false;
+        });
+
+        function redirect(url) {
+            location.href = url;
+        }
+    </script> 
+
+    <style type="text/css">
+    /* override style */
+    
+.ui-header .ui-title, .ui-footer .ui-title {
+    /*font-size:20px;*/
+    /* top right/left bottom */
+    margin: 0.6em 2% 0.8em;
+}
+
+.ui-header-fixed, .ui-footer-fixed {
+    /*position: relative;*/
+}
+    
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+    <div data-role="page" data-theme="a">
+
+
+    <div data-role='header' style="">  
+        <!-- <h1>Creative Alignments</h1> -->
+        <img src="../images/creative_alignments_logo.jpg" onclick="redirect('index.html')" style="width:100%;border:0;" />
+    </div>
+
+	<div data-role="content" style="clear:left; background-color:White;">
+
+            <div style="clear:both;">
+            <div style="clear:left;float:left;width:17%;padding-right:15px;"><img src="../images/ruru/ruru_standing.png" style="width:100%" alt="" /></div>
+
+            <div style="float:left;width:70%;padding-top:25px;"><h2 style="color:#0075b4;margin:0;">Hi, I'm <b>RuRu</b>.</h2><h2 style="color:#0075b4;margin:0;"><b>R U R</b>amping <b>U</b>p?</h2></div>
+            </div>
+
+            <div style="clear:both;">
+                <div style="clear:left;">Whether you are hiring 5 people this year or 50, or simply could use some HR support in any area, we’ve got you covered. Our hourly billing model and on-demand approach is customizable, flexible, and continually modifiable in response to your changing needs. We save you time, money, and hassles while we seamlessly mesh our services with your current internal hiring and HR strategies. We get the job done -- and done well!<br /><br /><b>Do any of these scenarios sound familiar? No need to worry. We can help you no matter what phase of growth you are in -- and with any HR need. Consider us a highly experienced and efficient extension of your team.</b></div>
+
+                <div style="clear:left;padding-top:40px;"><a href="ruru_run.html"><img src="../images/ruru/see_ruru_run.jpg" alt="" /></a><br /><b style="color:#0075b4">R u <u>R</u>amping <u>U</u>p <u>N</u>ow?</b><br />Is your company in high-growth mode and you needed to fill 20 positions like yesterday? Are your internal resources stretched to the max? Are you spending too much on contingency recruiters or are you considering hiring an in-house recruiter? We can efficiently augment your current situation – filling your open reqs with great hires quickly while freeing up your time and saving you money.<br /><a href="ruru_run.html" style="color:#a9343a;">FIND OUR MORE</a></div>
+
+                <div style="clear:left;padding-top:40px;"><a href="ruru_jog.html"><img src="../images/ruru/see_ruru_jog.jpg" alt="" /></a><br /><b style="color:#0075b4">R U <u>J</u>uggling <u>O</u>rdinary <u>G</u>rowth?</b><br />R U Juggling Ordinary Growth?</span><br />Are you growing at a steady pace with 1-10 new positions a year? Might you benefit from drawing from a wider pool of qualified candidates to ensure you are optimally growing your team? First, we will sit down with you to understand your needs and how we can best support you. Whether you choose to have us manage the entire hiring process or just the specific tasks you’d most like to clear from your plate, we are flexible and fluid. <br /><a href="ruru_jog.html" style="color:#a9343a;">FIND OUR MORE</a></div>
+
+                <div style="clear:left;padding-top:40px;"><a href="ruru_walk.html"><img src="../images/ruru/see_ruru_walk.jpg" alt="" /></a><br /><b style="color:#0075b4"><u>W</u>hile <u>A</u>ll <u>L</u>ooks <u>K</u>alm (or Calm!)</b><br />Now is a great time to tackle those HR projects that have been on the back burner, or maybe now are on fire! Are your employees happy and thriving? Would you like help creating an employee development or retention program or re-evaluating your employee review process? Has it been a while since you’ve updated your HR policies? Our human resources experts can help you with any HR matter.<br /><a href="ruru_walk.html" style="color:#a9343a;">FIND OUR MORE</a></div>
+            </div>
+
+
+            <div style="clear:left;width:100%;height:25px;"></div>
+
+                     <div style="width:100%;"><div style="margin: 0 auto;"><a href="index.html" target='_self' data-role='button' data-inline='true' data-mini='true' data-icon='arrow-l' data-theme='a'>back to main menu</a></div></div>
+
+                     <div style="clear:left;width:100%;height:25px;"></div>
+		
+	</div><!-- content -->
+
+    <div data-role="footer" data-theme="b">
+
+        <h1 id="footer">&#169; 2013 Creative Alignments</h1>
+
+    </div><!-- /footer -->
+
+    </div><!-- /page -->
+
+
+    </form>
+</body>
+</html>

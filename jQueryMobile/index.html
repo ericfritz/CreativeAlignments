@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <title>Creative Alignments</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="css/themes5/CreativeAlignments5.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile.structure-1.3.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).bind("mobileinit", function () {
+            $.mobile.loadingMessage = false;
+        });
+    </script> 
+
+    <style type="text/css">
+    /* override style */
+    
+.ui-header .ui-title, .ui-footer .ui-title {
+    /*font-size:20px;*/
+    /* top right/left bottom */
+    margin: 0.6em 2% 0.8em;
+}
+
+.ui-header-fixed, .ui-footer-fixed {
+    /*position: relative;*/
+}
+    
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+    <div data-role="page" data-theme="a">
+
+
+    <div data-role='header' style="background-color:White;">  
+        <!--<h1>Creative Alignments</h1>-->
+        <img src="../images/creative_alignments_logo.jpg" style="width:100%;" />
+    </div>
+
+    <!--<div data-role="navbar" data-theme="c">
+	<ul>
+		<li><a href="" class="ui-btn-active">Recruiting &amp; HR Expertise</a></li>
+	</ul>
+    </div>-->
+
+
+	<div data-role="content" style="clear:left;">
+
+    <ul data-role="listview">
+
+        <li><a href="home.html" target="_self">Home</a></li>
+        <li><a href="services.html" target="_self">Services</a></li>
+                <li data-theme="c"><a href="ruru_run.html" target="_self">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- R.U.N</a></li>
+                <li data-theme="c"><a href="ruru_jog.html" target="_self">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- J.O.G.</a></li>
+                <li data-theme="c"><a href="ruru_walk.html" target="_self">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- W.A.L.K.</a></li>
+        <li><a href="about.html" target="_self">About</a></li>
+                <li data-theme="c"><a href="our_story.html" target="_self">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Our Story</a></li>
+                <li data-theme="c"><a href="our_team.html" target="_self">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Our Team</a></li>
+                <li data-theme="c"><a href="our_alliances.html" target="_self">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Our Alliances</a></li>
+        <li><a href="clients.html" target="_self">Clients</a></li>
+                <li data-theme="c"><a href="clients_say.html" target="_self">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- What Our Clients Say</a></li>
+                <!--<li data-theme="c"><a href="" target="_self">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Case Studies</a></li>-->
+        <li><a href="contact.html" target="_self">Contact</a></li>
+        <li><a href="featured_jobs.html" target="_self">Featured Jobs</a></li>
+
+    </ul>
+		
+	</div><!-- /content -->
+
+    <div data-role="footer" data-theme="b">
+
+        <h1 id="footer">&#169; 2013 Creative Alignments</h1>
+
+    </div><!-- /footer -->
+
+    </div><!-- /page -->
+
+
+    </form>
+</body>
+</html>

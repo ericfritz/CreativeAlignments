@@ -1,0 +1,253 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Creative Alignments | Contact Us</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link href="common.css" rel="stylesheet" type="text/css" />
+<link href="nav.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="positions">
+
+<div id="contactuscontainer">
+
+    <div id="header">
+        <div id="logo" style="float:left;"><a href="index.html" class="home"><img src="images/creative_alignments_logo.jpg" alt="creative alignments"/></a></div>
+        <div id="navigation" style="clear:both;width:905px;">        
+            <div style="float:left;"><img src="images/nav_bkgrd_left.gif" alt="" /></div>
+            <div class="nav">
+               <div id="aboutus-cell"><a href="aboutus.html" class="aboutus" style="line-height:22px;">About Us</a></div>
+               <div class="navdots2"><img src="images/nav_bkgrd_dot.gif" alt="leadership" /></div>
+               <div id="leadership-cell"><a href="team.html" class="leadership" style="line-height:22px;">Team</a></div>
+               <div class="navdots2"><img src="images/nav_bkgrd_dot.gif" alt="services" /></div>
+               <div id="services-cell"><a href="services.html" class="services" style="line-height:22px;">Services</a></div>
+               <div class="navdots2"><img src="images/nav_bkgrd_dot.gif" alt="creative" /></div>
+               <div id="whyus-cell"><a href="whyus.html" class="whyus" style="line-height:22px;">Why Us</a></div>
+               <div class="navdots2"><img src="images/nav_bkgrd_dot.gif" alt="alignments" /></div>
+               <div id="contactus-cell"><a href="contactus.html" class="contactus" style="line-height:22px;">Contact Us</a></div>
+               <div class="navdots2"><img src="images/nav_bkgrd_dot.gif" alt="alignments" /></div>
+               <div id="openpositions-cell" style="background-image:url(images/nav_bkgrd_middle_open.gif);background-repeat:repeat-x;"><a href="positions.html" class="openpositions" style="line-height:22px;">Positions Available</a></div>
+            </div>
+            <div style="float:right;"><img src="images/nav_bkgrd_right.gif" alt="" /></div>
+        </div>
+    </div>
+
+    
+    <!-- Main Content Area -->
+    <div id="main">
+        <div style="width:22px;height:100%;float:left;"></div>
+
+    	<div id="leftMain">
+            <div style="width:100%;height:33px;"></div>
+            <div style=""><img src="images/Office.jpg" alt="" /></div>
+            <div style=""><img src="images/got_people_needs.jpg" alt="" /></div>
+    	</div>
+
+        <div id="rightMain">
+
+            <!--<div style="clear:left;padding-left:37px;width:530px;font-family:Trebuchet MS; font-weight:bold; font-size:21px; color:#ab542a; line-height:22px;">You'll find us in idyllic Boulder, Colorado where<br />it's fun to work hard and play hard. </div>-->
+
+            <div style="clear:left;float:left;padding-right:9px;padding-left:15px;"><img src="images/orange_arrow.gif" alt="" /></div>
+
+            <div style="float:left;padding-bottom:25px;width:530px;font-family:Trebuchet MS; font-weight:bold; font-size:24px; color:#ab343a; line-height:22px;">Highlighted Open Positions:</div>
+
+            <div style="clear:left;padding-left:37px;overflow-y:scroll;width:560px;height:350px;">
+
+            
+
+            <div style="padding-bottom:4px;font-size:14px;font-weight:bold;">Colorado</div>
+            <div style="padding-bottom:20px;">
+                <script type='text/javascript' src='https://www.smartrecruiters.com/img/script/smartWidget/smart_widget.js'>
+</script>
+                <script type='text/javascript' class='job_widget'>
+                    widget({
+                        "company_code": "CreativeAlignments",
+                        "bg_color_widget": "#ffffff",
+                        "bg_color_headers": "#ad5424",
+                        "bg_color_links": "#d38d1b",
+                        "txt_color_headers": "#ffffff",
+                        "txt_color_job": "#3d3d3d",
+                        "bg_color_even_row": "#e0e0e0",
+                        "bg_color_odd_row": "#bdbbbd",
+                        "custom_css_url": "https://www.smartrecruiters.com/img/style/smartWidget/smart_widget.css",
+                        "auto_width": "530",
+                        "auto_height": "auto",
+                        "number": "on",
+                        "job_title": "true",
+                        "location": "true",
+                        "remove_headers": "true",
+                        "filter_departments": "Colorado"
+                    });
+                </script></div>
+
+
+            <div style="padding-bottom:4px;font-size:14px;font-weight:bold;">California</div>
+            <div style="padding-bottom:20px;">
+                <script type='text/javascript' src='https://www.smartrecruiters.com/img/script/smartWidget/smart_widget.js'>
+</script>
+                <script type='text/javascript' class='job_widget'>
+                    widget({
+                        "company_code": "CreativeAlignments",
+                        "bg_color_widget": "#ffffff",
+                        "bg_color_headers": "#ad5424",
+                        "bg_color_links": "#d38d1b",
+                        "txt_color_headers": "#ffffff",
+                        "txt_color_job": "#3d3d3d",
+                        "bg_color_even_row": "#e0e0e0",
+                        "bg_color_odd_row": "#bdbbbd",
+                        "custom_css_url": "https://www.smartrecruiters.com/img/style/smartWidget/smart_widget.css",
+                        "auto_width": "530",
+                        "auto_height": "auto",
+                        "number": "on",
+                        "job_title": "true",
+                        "location": "true",
+                        "remove_headers": "true",
+                        "filter_departments": "California"
+                    });
+                </script>
+            </div>
+
+
+
+
+            <div style="padding-bottom:4px;font-size:14px;font-weight:bold;">Illinois</div>
+            <div style="padding-bottom:20px;">
+                <script type='text/javascript' src='https://www.smartrecruiters.com/img/script/smartWidget/smart_widget.js'>
+</script>
+                <script type='text/javascript' class='job_widget'>
+                    widget({
+                        "company_code": "CreativeAlignments",
+                        "bg_color_widget": "#ffffff",
+                        "bg_color_headers": "#ad5424",
+                        "bg_color_links": "#d38d1b",
+                        "txt_color_headers": "#ffffff",
+                        "txt_color_job": "#3d3d3d",
+                        "bg_color_even_row": "#e0e0e0",
+                        "bg_color_odd_row": "#bdbbbd",
+                        "custom_css_url": "https://www.smartrecruiters.com/img/style/smartWidget/smart_widget.css",
+                        "auto_width": "530",
+                        "auto_height": "auto",
+                        "number": "on",
+                        "job_title": "true",
+                        "location": "true",
+                        "remove_headers": "true",
+                        "filter_departments": "Illinois"
+                    });
+                </script>
+            </div>
+
+
+
+            <div style="padding-bottom:4px;font-size:14px;font-weight:bold;">Massachusetts</div>
+            <div style="padding-bottom:20px;">
+                <script type='text/javascript' src='https://www.smartrecruiters.com/img/script/smartWidget/smart_widget.js'>
+</script>
+                <script type='text/javascript' class='job_widget'>
+                    widget({
+                        "company_code": "CreativeAlignments",
+                        "bg_color_widget": "#ffffff",
+                        "bg_color_headers": "#ad5424",
+                        "bg_color_links": "#d38d1b",
+                        "txt_color_headers": "#ffffff",
+                        "txt_color_job": "#3d3d3d",
+                        "bg_color_even_row": "#e0e0e0",
+                        "bg_color_odd_row": "#bdbbbd",
+                        "custom_css_url": "https://www.smartrecruiters.com/img/style/smartWidget/smart_widget.css",
+                        "auto_width": "530",
+                        "auto_height": "auto",
+                        "number": "on",
+                        "job_title": "true",
+                        "location": "true",
+                        "remove_headers": "true",
+                        "filter_departments": "Massachusetts"
+                    });
+                </script>
+            </div>
+
+
+         <div style="padding-bottom:4px;font-size:14px;font-weight:bold;">Texas</div>
+            <div style="padding-bottom:20px;">
+                <script type='text/javascript' src='https://www.smartrecruiters.com/img/script/smartWidget/smart_widget.js'>
+</script>
+                <script type='text/javascript' class='job_widget'>
+                    widget({
+                        "company_code": "CreativeAlignments",
+                        "bg_color_widget": "#ffffff",
+                        "bg_color_headers": "#ad5424",
+                        "bg_color_links": "#d38d1b",
+                        "txt_color_headers": "#ffffff",
+                        "txt_color_job": "#3d3d3d",
+                        "bg_color_even_row": "#e0e0e0",
+                        "bg_color_odd_row": "#bdbbbd",
+                        "custom_css_url": "https://www.smartrecruiters.com/img/style/smartWidget/smart_widget.css",
+                        "auto_width": "530",
+                        "auto_height": "auto",
+                        "number": "on",
+                        "job_title": "true",
+                        "location": "true",
+                        "remove_headers": "true",
+                        "filter_departments": "Texas"
+                    });
+                </script>
+            </div>
+
+
+
+            <div style="padding-bottom:4px;font-size:14px;font-weight:bold;">Join Our Team in Boulder, Colorado</div>
+            <div style="padding-bottom:20px;">
+                <script type='text/javascript' src='https://www.smartrecruiters.com/img/script/smartWidget/smart_widget.js'>
+</script>
+                <script type='text/javascript' class='job_widget'>
+                    widget({
+                        "company_code": "CreativeAlignments",
+                        "bg_color_widget": "#ffffff",
+                        "bg_color_headers": "#ad5424",
+                        "bg_color_links": "#d38d1b",
+                        "txt_color_headers": "#ffffff",
+                        "txt_color_job": "#3d3d3d",
+                        "bg_color_even_row": "#e0e0e0",
+                        "bg_color_odd_row": "#bdbbbd",
+                        "custom_css_url": "https://www.smartrecruiters.com/img/style/smartWidget/smart_widget.css",
+                        "auto_width": "530",
+                        "auto_height": "auto",
+                        "number": "on",
+                        "job_title": "true",
+                        "location": "true",
+                        "remove_headers": "true",
+                        "filter_locations": "Boulder",
+                        "filter_departments": "CreativeAlignments"
+                    });
+                </script></div>
+
+                <br /><br /><br /><br />
+
+
+            </div>
+
+            <div style="clear:both;width:100%;height:30px;"></div>
+
+        </div>
+
+   </div>
+   
+   <!-- Footer -->
+   <div id="footerspacer" style="clear:both;width:100%;padding-top:31px;">
+   <div id="phone" style="line-height:18px;">303.489.5050</div>
+   <div id="email"><a href="mailto:info@creativealignments.com" style="text-decoration:none;line-height:18px;">info@creativealignments.com</a></div>
+   <div id="address" style="line-height:18px;">1906 13th St. Suite 304, Boulder, CO 80302</div>
+   <div id="copyright" style="line-height:18px;">&#169; 2011 Creative Alignments</div>
+   </div>
+
+   <!-- Social Media -->
+    <div style="clear:left;padding-left:20px;padding-top:10px;">
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://www.facebook.com/pages/Creative-Alignments/195434367163626?ref=tn_tinyman"><img src="images/facebook.jpg" /></a></div>
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://twitter.com/#!/CArecruiting"><img src="images/twitter.jpg" /></a></div>
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://www.linkedin.com/company/creative-alignments"><img src="images/linkedin.jpg" /></a></div>
+   </div>
+
+</div><!-- End of Container -->
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <title>Creative Alignments | Julia Moody</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="css/themes/CreativeAlignments.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile.structure-1.3.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).bind("mobileinit", function () {
+            $.mobile.loadingMessage = false;
+        });
+
+        function redirect(url) {
+            location.href = url;
+        }
+    </script> 
+
+    <style type="text/css">
+    /* override style */
+    
+.ui-header .ui-title, .ui-footer .ui-title {
+    /*font-size:20px;*/
+    /* top right/left bottom */
+    margin: 0.6em 2% 0.8em;
+}
+
+.ui-header-fixed, .ui-footer-fixed {
+    /*position: relative;*/
+}
+    
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+    <div data-role="page" data-theme="a">
+
+
+    <div data-role='header' style="">  
+        <!-- <h1>Creative Alignments</h1> -->
+        <img src="../images/creative_alignments_logo.jpg" onclick="redirect('index.html')" style="width:100%;border:0;" />
+    </div>
+
+	<div data-role="content" style="clear:left; background-color:White;">
+
+
+            <div><h2 style="color:#0075b4;">Julia Moody</h2></div>
+
+                    
+            <div style="clear:left;width:100%;padding-bottom:20px;">
+                    <h4>Senior Recruiter</h4>
+                    Julia comes to Creative Alignments with 15 years of recruiting experience in various industries, including data storage, engineering, telecom, marketing, and sales. Julia is a passionate, energetic, and strategic recruiting professional with a dedicated work ethic, excellent attention to detail, and an outgoing, forward-thinking mindset. Her focus is to create an exceptional candidate experience and provide the best client service possible.<br /><br />
+
+When she’s not bird dogging the best and brightest talent in the industry, she’s hanging out with her three kids and husband. She plays soccer, enjoys running, and drinks way too much coffee.
+
+
+
+
+
+<br /><br />
+                    Email at <a href="mailto:julia@creativealignments.com">julia@creativealignments.com</a> 
+                    </div>
+
+
+
+            <div style="clear:left;width:100%;height:25px;"></div>
+
+                     <div style="width:100%;"><div style="margin: 0 auto;"><a href="our_team.html" target='_self' data-role='button' data-inline='true' data-mini='true' data-icon='arrow-l' data-theme='a'>back to team</a></div></div>
+
+            <div style="clear:left;width:100%;height:25px;"></div>
+
+
+	</div>
+
+    <div data-role="footer" data-theme="b">
+
+        <h1 id="footer">&#169; 2013 Creative Alignments</h1>
+
+    </div><!-- /footer -->
+
+    </div><!-- /page -->
+
+
+    </form>
+</body>
+</html>

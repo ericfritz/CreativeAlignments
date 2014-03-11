@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <title>Creative Alignments | Contact</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="css/themes/CreativeAlignments.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile.structure-1.3.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).bind("mobileinit", function () {
+            $.mobile.loadingMessage = false;
+        });
+
+        function redirect(url) {
+            location.href = url;
+        }
+    </script> 
+
+    <style type="text/css">
+    /* override style */
+    
+.ui-header .ui-title, .ui-footer .ui-title {
+    /*font-size:20px;*/
+    /* top right/left bottom */
+    margin: 0.6em 2% 0.8em;
+}
+
+.ui-header-fixed, .ui-footer-fixed {
+    /*position: relative;*/
+}
+    
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+    <div data-role="page" data-theme="a">
+
+
+    <div data-role='header' style="">  
+        <!-- <h1>Creative Alignments</h1> -->
+        <img src="../images/creative_alignments_logo.jpg" onclick="redirect('index.html')" style="width:100%;border:0;" />
+    </div>
+
+	<div data-role="content" style="clear:left; background-color:White;">
+
+
+            <div><h3 style="color:#0075b4;">Contact Creative Alignments</h3></div>
+
+            <div style="clear:left;width:100%;">
+
+            <h4 style="margin-bottom:7px;"><b>You'll find us in idyllic Boulder, Colorado where
+it's fun to work hard and play hard. <br /><br />We share office space with our wonderful friends and unofficial collective comprised of Red Idea Partners, Olomomo Nut Company, Green Alpha Advisors, Keen One Quinoa, and JJ Sweets Cocomels. <br /><br /></b></h4>
+
+            <h4 style="margin-bottom:7px;">4760 Walnut Street, Suite 106</h4>
+
+            <h4 style="margin-bottom:7px;">Boulder, CO 80301</h4>
+
+            <h4 style="margin-bottom:7px;">303.835.9066</h4>
+
+            <h4 style="margin-bottom:7px;"><a style="font-size:17px;" href="mailto:info@creativealignments.com">info@creativealignments.com</a></h4>
+
+
+             </div>
+
+
+             <div style="clear:left;width:100%;height:25px;"></div>
+
+                     <div style="width:100%;"><div style="margin: 0 auto;"><a href="index.html" target='_self' data-role='button' data-inline='true' data-mini='true' data-icon='arrow-l' data-theme='a'>back to main menu</a></div></div>
+
+                     <div style="clear:left;width:100%;height:25px;"></div>
+		
+	</div><!-- content -->
+
+    <div data-role="footer" data-theme="b">
+
+        <h1 id="footer">&#169; 2013 Creative Alignments</h1>
+
+    </div><!-- /footer -->
+
+    </div><!-- /page -->
+
+
+    </form>
+</body>
+</html>

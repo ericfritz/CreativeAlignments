@@ -1,0 +1,248 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Creative Alignments | About</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+
+<script type="text/javascript" src="js/browserDetection.js"></script>
+<script type="text/javascript">
+    // add separate style sheet for chrome or firefox because web fonts dont look good in these non-anti-alias browsers
+
+    if (BrowserDetect.OS == 'Windows' && (BrowserDetect.browser == 'Firefox' || BrowserDetect.browser == 'Chrome')) {
+
+        //alert("You are using Windows and Firefox/Chrome");
+
+        document.write('<link rel="stylesheet" type="text/css" href="commonChromeFirefox.css" />')
+        document.write('<link rel="stylesheet" type="text/css" href="navChromeFirefox.css" />');
+    }
+    else {
+        document.write('<link rel="stylesheet" type="text/css" href="commonNew.css" />')
+        document.write('<link rel="stylesheet" type="text/css" href="navNew.css" />');
+    }
+
+</script>
+
+
+
+<link href="jcarousel.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+    
+<script type="text/javascript" language="javascript">
+
+    jQuery(document).ready(function () {
+
+        /*$('#services-cell').mouseout(function () {
+        $('#currentMenu').slideDown('slow', function () {
+        // Animation complete.  
+        });
+        });*/
+
+        /*$('#subnav_run').mouseout(function () {
+            $('#currentMenu').show().delay(3000);
+        });*/
+
+
+        jQuery('#mycarousel').jcarousel({
+            wrap: 'circular',
+            visible: 3,
+            scroll: 3,
+            auto: 3,
+            animation: 1100,
+            size: 22
+        });
+    });
+
+    function redirect(url) {  
+        location.href = url;  
+    }
+
+</script>
+
+<script type="text/javascript" language="javascript" src="js/ypSlideOutMenusC.js"></script>
+<script type="text/javascript" language="javascript">
+    //This sets the size and position of each drop-down for all others- left, top, width, height.
+    new ypSlideOutMenu("menu1", "down", 332, 0, 516, 30);
+    new ypSlideOutMenu("menu2", "down", 198, 0, 680, 30);
+    new ypSlideOutMenu("menu3", "down", 444, 0, 260, 30);
+</script>
+
+<script type="text/javascript" src="//use.typekit.net/dvf0zmt.js"></script>
+<script type="text/javascript">    try { Typekit.load(); } catch (e) { }</script>
+
+
+
+</head>
+
+<body id="aboutus">
+
+<div id="homecontainer">
+
+    <div id="header">
+        <div id="logo"><a href="index.html" class="home"><img src="images/creative_alignments_logo.jpg" alt="creative alignments"/></a></div>
+
+        <div id="navigation" onmouseout="showCurrentMenu();">        
+            <div style="float:left;"><img src="images/nav_bkgrd_left2.gif" alt="" /></div>
+            <div class="nav">
+               <div id="index-cell" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();"><a href="index.html" class="index" >HOME</a></div>
+               <div id="services-cell" onmouseover="hideCurrentMenu();ypSlideOutMenu.showMenu('menu2');" onmouseout="ypSlideOutMenu.hideMenu('menu2');showDelayedCurrentMenu();"><a href="services.html" class="services">SERVICES</a></div>
+               <div id="aboutus-cell"><a href="about.html" class="aboutus">ABOUT</a></div>
+               <div id="portfolio-cell" onmouseover="hideCurrentMenu();ypSlideOutMenu.showMenu('menu3')" onmouseout="ypSlideOutMenu.hideMenu('menu3');showDelayedCurrentMenu();"><a href="clients.html" class="portfolio">CLIENTS</a></div>
+               <div id="contactus-cell" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();"><a href="contact.html" class="contactus">CONTACT</a></div>
+               <div id="openpositions-cell" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();" style="background-image:url(images/nav_bkgrd_middle_open.gif);background-repeat:repeat-x;"><a href="featured_jobs.html" class="openpositions">FEATURED JOBS</a></div>
+            </div>
+            <div style="float:right;"><img src="images/nav_bkgrd_right2.gif" alt="" /></div>
+        </div>
+
+        <div id="subnav">
+        
+        <div id="currentMenu" style="display:block;z-index:0;padding-left:332px;height:28px;width:516px;"> 
+            <div id="menu1Content" class="dropmenu" style="background-color:#a9343a;height:28px;"> 
+                <div class="options">
+	                <div onclick="redirect('our_story.html');" class="subnav" style="width:150px;clear:left;">OUR STORY</div>
+                    <div onclick="redirect('our_team.html');" class="subnav" style="width:155px;">OUR TEAM</div>
+                    <div onclick="redirect('our_alliances.html');" class="subnav" style="width:180px;">OUR ALLIANCES</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="menu2Container" style="visibility: hidden;height:28px; "> 
+            <div id="menu2Content" class="dropmenu" style="background-color:#a9343a;height:28px;"> 
+                <div class="options">
+	                <div onclick="redirect('ruru_run.html');" class="subnav" style="width:180px;clear:left;">RAMPING UP NOW</div>
+                    <div onclick="redirect('ruru_jog.html');" class="subnav" style="width:260px;">JUGGLING ORDINARY GROWTH</div>
+                    <div onclick="redirect('ruru_walk.html');" class="subnav" style="width:210px;">WHILE ALL LOOKS KALM</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="menu3Container" style="visibility: hidden;height:28px; "> 
+            <div id="menu3Content" class="dropmenu" style="background-color:#a9343a;height:28px;"> 
+                <div class="options">
+	                <div onclick="redirect('clients_say.html');" class="subnav" style="width:250px;clear:left;" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();">WHAT OUR CLIENTS SAY</div>
+                    <!--<div onclick="redirect('case_studies.html');" class="subnav" style="width:165px;" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();">CASE STUDIES</div>-->
+                </div>
+            </div>
+        </div>
+        
+        
+        </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div id="main" style="">
+
+    	<div id="innerMain">
+
+            <div id="innerinnerMain">
+
+            <div style="clear:left;padding-top:5px;padding-bottom:12px;"><h1>About Us</h1></div>
+
+             <div style="clear:left;width:100%;padding-bottom:20px;"><h6>Creative Alignments is a trusted partner and go-to resource to fully manage the recruiting and placement of new hires<br />and provide ongoing human resources insight and support.</h6></div>
+
+             <div style="clear:left;float:left;width:211px;height:260px; background-color:#e4e4e4; background-image:url('images/aboutus_background_gray_box.gif'); background-repeat:no-repeat; padding-left:21px;padding-top:17px;padding-right:21px;">
+                <div style="clear:left; text-transform:uppercase;padding-bottom:3px;"><h5>WE DELIVER SUCCESS.</h5></div>
+                <div style="clear:left;">In 2012 alone, we successfully placed approximately 160 people in positions that span all levels, functions, and industries.  Our clients can attest to our valued partnerships.  See "<a href="clients_say.html">What Our Clients Say</a>".  </div>
+            </div>
+
+            <div style="float:left;width:211px;height:260px; background-color:#e4e4e4; background-image:url('images/aboutus_background_gray_box.gif');  background-repeat:no-repeat; padding-left:21px;padding-top:17px;padding-right:21px;margin-left:20px;">
+                <div style="clear:left;text-transform:uppercase;padding-bottom:3px;"><h5>WE CAN SAVE YOU MONEY.</h5></div>
+                <div style="clear:left;">We do not charge contingency fees.  Through our hourly billing model, you can save up to 50% per hire vs. using contingency recruiters.  For one client in rapid growth mode, we hired 32 employees in 7 months, saving them over $450,000 (really!).  </div>
+            </div>
+
+            <div style="float:left;width:230px;height:260px; background-color:#e4e4e4; background-image:url('images/aboutus_background_gray_box.gif'); background-repeat:no-repeat; padding-left:19px;padding-top:17px;padding-right:21px;margin-left:20px;">
+                <div style="clear:left;text-transform:uppercase;padding-bottom:3px"><h5>WE CAN SAVE YOU TIME.</h5></div>
+                <div style="clear:left;width:211px;">As we all know, hiring is time-consuming and can distract hiring managers from their core revenue-generating responsibilities. With our time & materials model, you can let us do the work while you focus on your core business and - given our expertise -enjoy the quicker time-to-hire.  </div>
+            </div>
+
+
+            <div style="clear:left;width:100%;height:20px;">&nbsp;</div>
+
+            <div style="clear:left;float:left;width:211px;height:275px; background-color:#e4e4e4; background-image:url('images/aboutus_background_gray_box.gif'); background-repeat:no-repeat; padding-left:21px;padding-top:17px;padding-right:21px;">
+                <div style="clear:left;text-transform:uppercase;padding-bottom:3px;"><h5>WE ARE A FULL SOLUTION.</h5></div>
+                <div style="clear:left;">Unlike most recruiting agencies, we are well-versed in HR best practices in addition to recruiting, allowing us to tackle additional HR needs for you as well.  </div>
+            </div>
+
+            <div style="float:left;width:253px;height:275px; padding-left:0px;padding-top:0px;margin-left:20px;"><img src="images/ruru/ruru_make_hiring_fun.jpg" alt="ruru" /></div>
+
+            <div style="float:left;width:230px;height:275px; background-color:#e4e4e4; background-image:url('images/aboutus_background_gray_box.gif'); background-repeat:no-repeat; background-repeat:no-repeat; padding-left:19px;padding-top:17px;padding-right:21px;margin-left:20px;">
+                <div style="clear:left;text-transform:uppercase;padding-bottom:3px"><h5>WE ARE NIMBLE.</h5></div>
+                <div style="clear:left;width:211px;">We can create a customized solution for your needs, from targeted candidate pipeline development to full-cycle recruiting to many other options in between and beyond.  We can work onsite at your offices or offsite at our HQ in Boulder.  We can also fluidly flex our time up or down in response to your changing needs.</div>
+            </div>
+
+            <div style="clear:left;width:100%;height:20px;">&nbsp;</div>
+
+            <div style="float:left;width:211px;height:370px; background-color:#e4e4e4; background-image:url('images/aboutus_background_gray_box.gif'); background-repeat:no-repeat; padding-left:21px;padding-top:17px;padding-right:21px;">
+                <div style="clear:left;text-transform:uppercase;padding-bottom:3px;"><h5>WE FIND HIDDEN GEMS AND ARE YOUR BRAND AMBASSADORS.</h5></div>
+                <div style="clear:left;">We know that relying only on active applicants does not necessarily yield the best talent.  We are deeply skilled in the "art" of searching for passive talent and have invested extensively in tools that allow us to find these hidden gems.  And when we reach out to individuals, we take seriously the special role we play in representing your brand.  </div>
+            </div>
+
+            <div style="float:left;width:211px;height:370px; background-color:#e4e4e4; background-image:url('images/aboutus_background_gray_box.gif'); background-repeat:no-repeat; padding-left:21px;padding-top:17px;padding-right:21px;margin-left:20px;">
+                <div style="clear:left;text-transform:uppercase;padding-bottom:3px;"><h5>WE ARE EXPERIENCED WITH ALL SHAPES AND SIZES.</h5></div>
+                <div style="clear:left;">We work with businesses of all sizes, on projects large and small, with a special focus on Colorado's growth industries such as high tech (software/IT), creative services (marketing/design), and LOHAS (natural foods/products/services).    </div>
+            </div>
+
+            
+            <div style="float:left;width:230px;height:370px; background-color:#e4e4e4; background-image:url('images/aboutus_background_gray_box.gif'); background-repeat:no-repeat; padding-left:21px;padding-top:17px;padding-right:21px;margin-left:20px;">
+                <div style="clear:left; text-transform:uppercase;padding-bottom:3px;"><h5>WE ARE A SMART, EXPERIENCED, AND COLLABORATIVE TEAM.</h5></div>
+                <div style="clear:left;">Our highly experienced (and super fun) team fluidly shares its deep networks, resources, and expertise to find the best talent for each client.  We meet weekly as a team to brainstorm on how to creatively approach each of your open positions, leveraging our belief (and Aristotle's) that "the whole is greater than the sum of its parts" - although our "parts" are pretty impressive too, as most team members have 10-15 years of experience in recruiting, HR, or both.  </div>
+            </div>
+
+
+
+
+
+            <div style="display:none;clear:left;text-transform:uppercase;padding-top:28px;"><h5>An engagement with us might look like this:</h5> </div>
+
+            <div style="display:none;clear:left;float:left;width:570px; line-height:24px;padding-top:5px;padding-bottom:10px;">
+            <ul>
+            <li>We ensure that we clearly understand our client’s business and recruiting needs.</li>
+            <li>We write clear, targeted job descriptions.</li>
+            <li>We search for candidates in a highly strategic manner, using a full array of search tools and our extensive networks.</li>
+            <li>We creatively find talent and reach outside the box to source candidates who may not otherwise have applied for the job.</li>
+            <li>We screen and interview potential candidates prior to introductions to the client.</li>
+            <li>We keep track of all candidate activity and share the activity report with our clients throughout the process.</li>
+            <li>We coordinate client-side interviews and feedback to candidates.</li>
+            <li>We check candidate references and facilitate background checks.</li>
+            <li>We help write and present offer letters and coordinate an overall on-boarding plan.</li>
+            <li>We provide ongoing consulting expertise and support as desired.</li>
+            </ul>
+
+            </div>
+
+            <div style="display:none;float:left;width:258px;padding-left:260px;margin-top:25px;"><br /><img src="images/ruru/ruru_make_hiring_fun.jpg" alt="ruru" /></div>
+
+
+
+            </div><!-- end of innerinnermain container -->
+
+    	
+
+   
+                   <!-- Footer -->
+                   <div id="footerspacer" style="clear:both;width:100%;height:28px;padding-top:0px;background-color:#e8a61c;">
+                    <div style="padding-top:6px;">
+                       <div id="phone" style="line-height:18px;">303.835.9066</div>
+                       <div id="email"><a href="mailto:info@creativealignments.com" style="text-decoration:none;line-height:18px;">info@creativealignments.com</a></div>
+                       <div id="address" style="line-height:18px;">4760 Walnut St, Suite 106, Boulder, CO 80301</div>
+                       <div id="copyright" style="line-height:18px;">&#169; 2013 Creative Alignments</div>
+                       </div>
+                   </div>
+
+              </div><!-- end of innermain container -->
+
+   </div><!-- end of main container -->
+
+   <!-- Social Media -->
+   <div style="clear:left;padding-left:20px;padding-top:18px;">
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://www.facebook.com/pages/Creative-Alignments/195434367163626?ref=tn_tinyman"><img src="images/facebook.jpg" /></a></div>
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://twitter.com/#!/CArecruiting"><img src="images/twitter.jpg" /></a></div>
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://www.linkedin.com/company/creative-alignments"><img src="images/linkedin.jpg" /></a></div>
+   </div>
+
+</div><!-- End of homecontainer -->
+
+</body>
+</html>

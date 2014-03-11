@@ -1,0 +1,262 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Creative Alignments | Our Team</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<script type="text/javascript" src="js/browserDetection.js"></script>
+<script type="text/javascript">
+    // add separate style sheet for chrome or firefox because web fonts dont look good in these non-anti-alias browsers
+
+    if (BrowserDetect.OS == 'Windows' && (BrowserDetect.browser == 'Firefox' || BrowserDetect.browser == 'Chrome')) {
+
+        //alert("You are using Windows and Firefox/Chrome");
+
+        document.write('<link rel="stylesheet" type="text/css" href="commonChromeFirefox.css" />')
+        document.write('<link rel="stylesheet" type="text/css" href="navChromeFirefox.css" />');
+    }
+    else {
+        document.write('<link rel="stylesheet" type="text/css" href="commonNew.css" />')
+        document.write('<link rel="stylesheet" type="text/css" href="navNew.css" />');
+    }
+
+</script>
+
+<link href="jcarousel.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+    
+<script type="text/javascript" language="javascript">
+
+    jQuery(document).ready(function () {
+
+        /*$('#services-cell').mouseout(function () {
+        $('#currentMenu').slideDown('slow', function () {
+        // Animation complete.  
+        });
+        });*/
+
+        /*$('#subnav_run').mouseout(function () {
+            $('#currentMenu').show().delay(3000);
+        });*/
+
+
+        jQuery('#mycarousel').jcarousel({
+            wrap: 'circular',
+            visible: 3,
+            scroll: 3,
+            auto: 3,
+            animation: 1100,
+            size: 22
+        });
+    });
+
+    function redirect(url) {  
+        location.href = url;  
+    }
+
+</script>
+
+<script type="text/javascript" language="javascript" src="js/ypSlideOutMenusC.js"></script>
+<script type="text/javascript" language="javascript">
+    //This sets the size and position of each drop-down for all others- left, top, width, height.
+    new ypSlideOutMenu("menu1", "down", 184, 0, 516, 30);
+    new ypSlideOutMenu("menu2", "down", 308, 0, 456, 30);
+    new ypSlideOutMenu("menu3", "down", 431, 0, 436, 30);
+</script>
+
+<script type="text/javascript" src="//use.typekit.net/dvf0zmt.js"></script>
+<script type="text/javascript">    try { Typekit.load(); } catch (e) { }</script>
+
+</head>
+
+<body id="aboutus">
+
+<div id="homecontainer">
+
+    <div id="header">
+        <div id="logo"><a href="indexNew.html" class="home"><img src="images/creative_alignments_logo.jpg" alt="creative alignments"/></a></div>
+
+        <div id="navigation" onmouseout="showCurrentMenu();">        
+            <div style="float:left;"><img src="images/nav_bkgrd_left2.gif" alt="" /></div>
+            <div class="nav">
+               <div id="index-cell" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();"><a href="indexNew.html" class="index" >HOME</a></div>
+               <div id="aboutus-cell"><a href="aboutusNew.html" class="aboutus">ABOUT US</a></div>
+
+               <div id="services-cell" onmouseover="hideCurrentMenu();ypSlideOutMenu.showMenu('menu2');" onmouseout="ypSlideOutMenu.hideMenu('menu2');showDelayedCurrentMenu();"><a href="servicesNew.html" class="services">SERVICES</a></div>
+
+               <div id="portfolio-cell" onmouseover="hideCurrentMenu();ypSlideOutMenu.showMenu('menu3')" onmouseout="ypSlideOutMenu.hideMenu('menu3');showDelayedCurrentMenu();"><a href="portfolio.html" class="portfolio">PORTFOLIO</a></div>
+               <div id="contactus-cell" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();"><a href="contactusNew.html" class="contactus">CONTACT US</a></div>
+               <div id="openpositions-cell" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();" style="background-image:url(images/nav_bkgrd_middle_open.gif);background-repeat:repeat-x;"><a href="positionsNew.html" class="openpositions">POSITIONS AVAILABLE</a></div>
+            </div>
+            <div style="float:right;"><img src="images/nav_bkgrd_right2.gif" alt="" /></div>
+        </div>
+
+        <div id="subnav">
+        
+        <div id="currentMenu" style="display:block;z-index:0;padding-left:184px;height:24px;width:516px;"> 
+            <div id="menu1Content" class="dropmenu" style="background-color:#a9343a;height:28px;"> 
+                <div class="options">
+	                <div onclick="redirect('our_story.html');" class="subnav" style="width:150px;clear:left;">OUR STORY</div>
+                    <div onclick="redirect('our_team.html');" class="subnav" style="width:155px;background-color:#a9343a;color: White;">OUR TEAM</div>
+                    <div onclick="redirect('our_partners.html');" class="subnav" style="width:180px;">OUR PARTNERS</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="menu2Container" style="visibility: hidden;height:28px; "> 
+            <div id="menu2Content" class="dropmenu"v> 
+                <div class="options">
+	                <div id="subnav_run" onclick="redirect('run.html');" class="subnav" style="width:130px;clear:left;" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();">R.U.N.</div>
+                    <div onclick="redirect('ourTeam.html');" class="subnav" style="width:135px;" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();">J.O.G.</div>
+                    <div onclick="redirect('ourPartners.html');" class="subnav" style="width:160px;" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();">W.A.L.K.</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="menu3Container" style="visibility: hidden;height:28px; "> 
+            <div id="menu3Content" class="dropmenu" style="background-color:#a9343a;height:28px;"> 
+                <div class="options">
+	                <div onclick="redirect('run.html');" class="subnav" style="width:250px;clear:left;" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();">WHAT OUR CLIENTS SAY</div>
+                    <div onclick="redirect('ourTeam.html');" class="subnav" style="width:165px;" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();">CASE STUDIES</div>
+                </div>
+            </div>
+        </div>
+        
+        
+        </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div id="main" style="">
+
+    	<div id="innerMain">
+
+            <div id="innerinnerMain">
+
+            <div><h1>Jennifer Wolf</h1></div>
+
+                <div id="leftside" style="clear:left;float:left;width:350px;">
+                    
+                    <div style="clear:left;width:100%;padding-bottom:20px;">
+                    <h4>Senior Recruiter</h4>
+                    Coming Soon...
+
+
+<br /><br />
+                    Email at <a href="mailto:jennifer@creativealignments.com">jennifer@creativealignments.com</a> 
+                    </div>
+
+             </div>
+
+             <div style="float:left;width:40px;height:400px;">&nbsp;</div>
+
+             <div id="rightside" style="float:left;width:430px; background-color:#fde8bb;">
+
+                <div style="width:100%;height:15px;">&nbsp;</div>
+                <!-- ############################################################################# -->
+                <!-- Need to copy this template for the rest of the team photos and on to bio page -->
+                <!-- ############################################################################# -->
+                
+                <div style="clear:left;float:left;width:135px;height:180px;padding:2px;margin-left:5px;">
+                    <div style="width:113;height:112px;padding-left:10px;"><a href="bio_peggy_shell.html" class="teamphotorollover" style="background-image:url('images/team/peggy_shell.png');" ></a></div>
+                
+                    <div style="width:100%;text-align:center;"><a href="bio_peggy_shell.html" style="line-height:16px;"><span class="redMuseoSlabNoBold15">Peggy Shell</span><br />Founder <span style="font-family:Arial;">&amp;</span> CEO</a></div>
+                </div>
+
+                <div style="float:left;width:135px;height:180px;padding:2px;">
+                    <div style="width:113;height:112px;padding-left:10px;"><a href="bio_chuck_mccoy.html" class="teamphotorollover" style="background-image:url('images/team/chuck_mccoy.png');" ></a></div>
+                
+                    <div style="width:100%;text-align:center;"><a href="bio_chuck_mccoy.html" style="line-height:16px;"><span class="redMuseoSlabNoBold15">Chuck McCoy</span><br />Senior Partner</a></div>
+                </div>
+
+                <div style="float:left;width:135px;height:180px;padding:2px;">
+                    <div style="width:113;height:112px;padding-left:10px;"><a href="bio_katie_johnstone.html" class="teamphotorollover" style="background-image:url('images/team/katie_johnstone.png');" ></a></div>
+                
+                    <div style="width:100%;text-align:center;"><a href="bio_katie_johnstone.html" style="line-height:16px;"><span class="redMuseoSlabNoBold15">Katie Johnstone</span><br />Partner</a></div>
+                </div>
+
+
+
+
+                <div style="clear:left;float:left;width:135px;height:180px;padding:2px;margin-left:5px;">
+                    <div style="width:113;height:112px;padding-left:10px;"><a href="bio_maureen_chism.html" class="teamphotorollover" style="background-image:url('images/team/maureen_chism.png');" ></a></div>
+                
+                    <div style="width:100%;text-align:center;"><a href="bio_maureen_chism.html" style="line-height:16px;"><span class="redMuseoSlabNoBold15">Maureen Chism</span><br />Senior Recruiter</a></div>
+                </div>
+
+                <div style="float:left;width:135px;height:180px;padding:2px;">
+                    <div style="width:113;height:112px;padding-left:10px;"><a href="bio_kristie_hunziker.html" class="teamphotorollover" style="background-image:url('images/team/kristie_hunziker.png');" ></a></div>
+                
+                    <div style="width:100%;text-align:center;"><a href="bio_kristie_hunziker.html" style="line-height:16px;"><span class="redMuseoSlabNoBold15">Kristie Hunziker</span><br />Senior Recruiter</a></div>
+                </div>
+
+                <div style="float:left;width:135px;height:180px;padding:2px;">
+                    <div style="width:113;height:112px;padding-left:10px;"><a href="bio_elizabeth_morris.html" class="teamphotorollover" style="background-image:url('images/team/elizabeth_morris.png');" ></a></div>
+                
+                    <div style="width:100%;text-align:center;"><a href="bio_elizabeth_morris.html" style="line-height:16px;"><span class="redMuseoSlabNoBold15">Elizabeth Morris</span><br />Senior Recruiter</a></div>
+                </div>
+
+
+
+
+                <div style="clear:left;float:left;width:135px;height:180px;padding:2px;margin-left:5px;">
+                    <div style="width:113;height:112px;padding-left:10px;"><a href="bio_janell_nicholas.html" class="teamphotorollover" style="background-image:url('images/team/janell_nicholas.png');" ></a></div>
+                
+                    <div style="width:100%;text-align:center;"><a href="bio_janell_nicholas.html" style="line-height:16px;"><span class="redMuseoSlabNoBold15">Janell Nicholas</span><br />Administrative Assistant</a></div>
+                </div>
+
+                <div style="float:left;width:135px;height:180px;padding:2px;">
+                    <div style="width:113;height:112px;padding-left:10px;"><a href="bio_stacey_stern.html" class="teamphotorollover" style="background-image:url('images/team/stacey_stern.png');" ></a></div>
+                
+                    <div style="width:100%;text-align:center;"><a href="bio_stacey_stern.html" style="line-height:16px;"><span class="redMuseoSlabNoBold15">Stacey Stern</span><br />Director of Business Development</a></div>
+                </div>
+
+                <div style="float:left;width:135px;height:180px;padding:2px;">
+                    <div style="width:113;height:112px;padding-left:10px;"><a href="bio_jennifer_wolf.html" class="teamphotoover" style="background-image:url('images/team/jennifer_wolf.png');" ></a></div>
+                
+                    <div style="width:100%;text-align:center;"><a href="bio_jennifer_wolf.html" style="line-height:16px;"><span class="redMuseoSlabNoBold15">Jennifer Wolf</span><br />Senior Recruiter</a></div>
+                </div>
+
+                <div style="clear:left;width:100%;height:15px;">&nbsp;</div>
+
+             </div>
+
+
+             <div style="clear:left;width:100%;height:25px;"></div>
+
+
+
+
+
+            </div><!-- end of innerinnermain container -->
+
+    	
+
+   
+                   <!-- Footer -->
+                   <div id="footerspacer" style="clear:both;width:100%;height:28px;padding-top:0px;background-color:#e8a61c;">
+                    <div style="padding-top:6px;">
+                       <div id="phone" style="line-height:18px;">303.835.9066</div>
+                       <div id="email"><a href="mailto:info@creativealignments.com" style="text-decoration:none;line-height:18px;">info@creativealignments.com</a></div>
+                       <div id="address" style="line-height:18px;">4760 Walnut St, Suite 106, Boulder, CO 80301</div>
+                       <div id="copyright" style="line-height:18px;">&#169; 2013 Creative Alignments</div>
+                       </div>
+                   </div>
+
+         </div><!-- end of innermain container -->
+
+   </div><!-- end of main container -->
+
+   <!-- Social Media -->
+   <div style="clear:left;padding-left:20px;padding-top:18px;">
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://www.facebook.com/pages/Creative-Alignments/195434367163626?ref=tn_tinyman"><img src="images/facebook.jpg" /></a></div>
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://twitter.com/#!/CArecruiting"><img src="images/twitter.jpg" /></a></div>
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://www.linkedin.com/company/creative-alignments"><img src="images/linkedin.jpg" /></a></div>
+   </div>
+
+</div><!-- End of homecontainer -->
+
+</body>
+</html>

@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Creative Alignments | Home</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link href="common3.css" rel="stylesheet" type="text/css" />
+<link href="nav3.css" rel="stylesheet" type="text/css" />
+
+<link href="jcarousel.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+    
+<script type="text/javascript" language="javascript">
+
+    jQuery(document).ready(function () {
+
+        /*$('#services-cell').mouseout(function () {
+        $('#currentMenu').slideDown('slow', function () {
+        // Animation complete.  
+        });
+        });*/
+
+        /*$('#subnav_run').mouseout(function () {
+            $('#currentMenu').show().delay(3000);
+        });*/
+
+
+        jQuery('#mycarousel').jcarousel({
+            wrap: 'circular',
+            visible: 3,
+            scroll: 3,
+            auto: 3,
+            animation: 1100,
+            size: 22
+        });
+    });
+
+    function redirect(url) {  
+        location.href = url;  
+    }
+
+</script>
+
+<script type="text/javascript" language="javascript" src="js/ypSlideOutMenusC.js"></script>
+<script type="text/javascript" language="javascript">
+    //This sets the size and position of each drop-down for all others- left, top, width, height.
+    new ypSlideOutMenu("menu1", "down", 184, 0, 516, 30);
+    new ypSlideOutMenu("menu2", "down", 308, 0, 456, 30);
+    new ypSlideOutMenu("menu3", "down", 431, 0, 436, 30);
+</script>
+
+<script type="text/javascript" src="//use.typekit.net/dvf0zmt.js"></script>
+<script type="text/javascript">    try { Typekit.load(); } catch (e) { }</script>
+
+</head>
+
+<body id="aboutus">
+
+<div id="homecontainer">
+
+    <div id="header">
+        <div id="logo"><a href="indexNew.html" class="home"><img src="images/creative_alignments_logo.jpg" alt="creative alignments"/></a></div>
+
+        <div id="navigation" onmouseout="showCurrentMenu();">        
+            <div style="float:left;"><img src="images/nav_bkgrd_left2.gif" alt="" /></div>
+            <div class="nav">
+               <div id="index-cell" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();"><a href="indexNew.html" class="index" >HOME</a></div>
+               <div id="aboutus-cell"><a href="about_us.html" class="aboutus">ABOUT US</a></div>
+
+               <div id="services-cell" onmouseover="hideCurrentMenu();ypSlideOutMenu.showMenu('menu2');" onmouseout="ypSlideOutMenu.hideMenu('menu2');showDelayedCurrentMenu();"><a href="services2.html" class="services">SERVICES</a></div>
+
+               <div id="portfolio-cell" onmouseover="hideCurrentMenu();ypSlideOutMenu.showMenu('menu3')" onmouseout="ypSlideOutMenu.hideMenu('menu3');showDelayedCurrentMenu();"><a href="portfolio.html" class="portfolio">PORTFOLIO</a></div>
+               <div id="contactus-cell" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();"><a href="contact_us.html" class="contactus">CONTACT US</a></div>
+               <div id="openpositions-cell" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();" style="background-image:url(images/nav_bkgrd_middle_open.gif);background-repeat:repeat-x;"><a href="positions_available.html" class="openpositions">POSITIONS AVAILABLE</a></div>
+            </div>
+            <div style="float:right;"><img src="images/nav_bkgrd_right2.gif" alt="" /></div>
+        </div>
+
+        <div id="subnav">
+        
+        <div id="currentMenu" style="display:block;z-index:0;padding-left:184px;height:24px;width:516px;"> 
+            <div id="menu1Content" class="dropmenu" style="height:28px;"> 
+                <div class="options">
+	                <div onclick="redirect('ourStory.html');" class="subnav" style="width:150px;clear:left;">OUR STORY</div>
+                    <div onclick="redirect('ourTeam.html');" class="subnav" style="width:155px;">OUR TEAM</div>
+                    <div onclick="redirect('ourPartners.html');" class="subnav" style="width:180px;">OUR PARTNERS</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="menu2Container" style="visibility: hidden;height:28px; "> 
+            <div id="menu2Content" class="dropmenu"> 
+                <div class="options">
+	                <div id="subnav_run" onclick="redirect('run.html');" class="subnav" style="width:130px;clear:left;" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();">R.U.N</div>
+                    <div onclick="redirect('ourTeam.html');" class="subnav" style="width:135px;" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();">J.O.G</div>
+                    <div onclick="redirect('ourPartners.html');" class="subnav" style="width:160px;" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();">W.A.L.K</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="menu3Container" style="visibility: hidden;height:28px; "> 
+            <div id="menu3Content" class="dropmenu"> 
+                <div class="options">
+	                <div onclick="redirect('run.html');" class="subnav" style="width:250px;clear:left;" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();">WHAT OUR CLIENTS SAY</div>
+                    <div onclick="redirect('ourTeam.html');" class="subnav" style="width:165px;" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();">CASE STUDIES</div>
+                </div>
+            </div>
+        </div>
+        
+        
+        </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div id="main" style="">
+
+    	<div id="innerMain">
+
+            <div id="innerinnerMain">
+
+            <div style="clear:left;padding-top:15px;padding-bottom:12px;font-family:'museo-sans'; font-weight:500; font-style:italic; font-size:30px; color:#0075b4;">About Us</div>
+
+             <div style="clear:left;width:100%;font-family:'museo-sans'; font-weight:500; font-style:normal; font-size:15px; color:#000000; line-height:20px;padding-bottom:20px;">Creative Alignments is a trusted partner and go-to resource to fully manage the recruiting and placement of new <br />hires and provide ongoing human resources support and insight. </div>
+
+             <div style="clear:left;float:left;width:211px;height:210px; background-image:url('images/aboutus_background_gray_box.gif'); padding-left:21px;padding-top:17px;padding-right:21px;">
+                <div style="clear:left;font-family:'museo-slab'; font-weight:500; font-style:normal; font-size:16px; color:#a93439; text-transform:uppercase;padding-bottom:3px;">We know your space. </div>
+                <div style="clear:left;font-family:'museo-sans'; font-weight:500; font-style:normal; font-size:14px; color:#000000; line-height:20px;">We work with businesses of all sizes, on projects large and small, with a special focus on Colorado’s growth industries such as high tech (software/IT); creative services (marketing/ design); and LOHAS (natural foods, products, and services).</div>
+            </div>
+
+            <div style="float:left;width:211px;height:210px; background-image:url('images/aboutus_background_gray_box.gif'); padding-left:21px;padding-top:17px;padding-right:21px;margin-left:20px;">
+                <div style="clear:left;font-family:'museo-slab'; font-weight:500; font-style:normal; font-size:16px; color:#a93439;text-transform:uppercase;padding-bottom:3px;">We are nimble.</div>
+                <div style="clear:left;font-family:'museo-sans'; font-weight:500; font-style:normal; font-size:14px; color:#000000; line-height:20px;">Our experienced team capably augments internal recruiting and HR departments, either from our clients’ offices or from our headquarters in downtown Boulder.</div>
+            </div>
+
+            <div style="float:left;width:230px;height:210px; background-image:url('images/aboutus_background_gray_box.gif'); background-repeat:no-repeat; padding-left:19px;padding-top:17px;padding-right:21px;margin-left:20px;">
+                <div style="clear:left;font-family:'museo-slab'; font-weight:500; font-style:normal; font-size:16px; color:#a93439;text-transform:uppercase;padding-bottom:3px">We ease your workload.</div>
+                <div style="clear:left;width:211px;font-family:'museo-sans'; font-weight:500; font-style:normal; font-size:14px; color:#000000; line-height:20px;">We don’t simply forward stacks of resumes hoping one is the right fit, then move on. Instead, we work closely with our clients to attract, hire, and keep the best talent.</div>
+            </div>
+
+            <div style="clear:left;font-family:'museo-slab'; font-weight:500; font-style:normal; font-size:16px; color:#a93439;text-transform:uppercase;padding-top:28px;">An engagement with us might look like this: </div>
+
+            <div style="clear:left;float:left;width:570px;font-family:'museo-sans'; font-weight:500; font-style:normal; font-size:14px; color:#000000; line-height:24px;padding-top:5px;padding-bottom:10px;">
+            <ul>
+            <li>We ensure that we clearly understand our client’s business and recruiting needs.</li>
+            <li>We write clear, targeted job descriptions.</li>
+            <li>We search for candidates in a highly strategic manner, using a full array of search tools and our extensive networks.</li>
+            <li>We creatively find talent and reach outside the box to source candidates who may not otherwise have applied for the job.</li>
+            <li>We screen and interview potential candidates prior to introductions to the client.</li>
+            <li>We keep track of all candidate activity and share the activity report with our clients throughout the process.</li>
+            <li>We coordinate client-side interviews and feedback to candidates.</li>
+            <li>We check candidate references and facilitate background checks.</li>
+            <li>We help write and present offer letters and coordinate an overall on-boarding plan.</li>
+            <li>We provide ongoing consulting expertise and support as desired.</li>
+            </ul>
+
+            </div>
+
+            <div style="float:left;width:258px;padding-left:20px;"><img src="images/ruru/ruru_make_hiring_fun.jpg" alt="ruru" /></div>
+
+
+
+            </div><!-- end of innerinnermain container -->
+
+    	
+
+   
+                   <!-- Footer -->
+                   <div id="footerspacer" style="clear:both;width:100%;height:28px;padding-top:0px;background-color:#e8a61c;">
+                    <div style="padding-top:6px;">
+                       <div id="phone" style="line-height:18px;">303.489.5050</div>
+                       <div id="email"><a href="mailto:info@creativealignments.com" style="text-decoration:none;line-height:18px;">info@creativealignments.com</a></div>
+                       <div id="address" style="line-height:18px;">1906 13th St. Suite 304, Boulder, CO 80302</div>
+                       <div id="copyright" style="line-height:18px;">&#169; 2013 Creative Alignments</div>
+                       </div>
+                   </div>
+
+              </div><!-- end of innermain container -->
+
+   </div><!-- end of main container -->
+
+   <!-- Social Media -->
+   <div style="clear:left;padding-left:20px;padding-top:18px;">
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://www.facebook.com/pages/Creative-Alignments/195434367163626?ref=tn_tinyman"><img src="images/facebook.jpg" /></a></div>
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://twitter.com/#!/CArecruiting"><img src="images/twitter.jpg" /></a></div>
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://www.linkedin.com/company/creative-alignments"><img src="images/linkedin.jpg" /></a></div>
+   </div>
+
+</div><!-- End of homecontainer -->
+
+</body>
+</html>

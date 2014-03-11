@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Creative Alignments | Home</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link href="common2.css" rel="stylesheet" type="text/css" />
+<link href="nav2.css" rel="stylesheet" type="text/css" />
+
+<link href="jcarousel.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+    
+<script type="text/javascript" language="javascript">
+
+    jQuery(document).ready(function () {
+
+        /*$('#services-cell').mouseout(function () {
+        $('#currentMenu').slideDown('slow', function () {
+        // Animation complete.  
+        });
+        });*/
+
+        /*$('#subnav_run').mouseout(function () {
+            $('#currentMenu').show().delay(3000);
+        });*/
+
+
+        jQuery('#mycarousel').jcarousel({
+            wrap: 'circular',
+            visible: 3,
+            scroll: 3,
+            auto: 3,
+            animation: 1100,
+            size: 22
+        });
+    });
+
+    function redirect(url) {  
+        location.href = url;  
+    }
+
+</script>
+
+<script type="text/javascript" language="javascript" src="js/ypSlideOutMenusC.js"></script>
+<script type="text/javascript" language="javascript">
+    //This sets the size and position of each drop-down for all others- left, top, width, height.
+    new ypSlideOutMenu("menu1", "down", 184, 0, 516, 30);
+    new ypSlideOutMenu("menu2", "down", 308, 0, 456, 30);
+    new ypSlideOutMenu("menu3", "down", 431, 0, 436, 30);
+</script>
+
+<script type="text/javascript" src="//use.typekit.net/dvf0zmt.js"></script>
+<script type="text/javascript">    try { Typekit.load(); } catch (e) { }</script>
+
+</head>
+
+<body id="contactus">
+
+<div id="homecontainer">
+
+    <div id="header">
+        <div id="logo"><a href="indexNew2.html" class="home"><img src="images/creative_alignments_logo.jpg" alt="creative alignments"/></a></div>
+
+        <div id="navigation">        
+            <div style="float:left;"><img src="images/nav_bkgrd_left2.gif" alt="" /></div>
+            <div class="nav">
+               <div id="index-cell"><a href="indexNew2.html" class="index" >HOME</a></div>
+               <div id="aboutus-cell" onmouseover="ypSlideOutMenu.showMenu('menu1')" onmouseout="ypSlideOutMenu.hideMenu('menu1')"><a href="about_us2.html" class="aboutus">ABOUT US</a></div>
+               <div id="services-cell" onmouseover="ypSlideOutMenu.showMenu('menu2')" onmouseout="ypSlideOutMenu.hideMenu('menu2')"><a href="services2.html" class="services"">SERVICES</a></div>
+               <div id="portfolio-cell" onmouseover="ypSlideOutMenu.showMenu('menu3')" onmouseout="ypSlideOutMenu.hideMenu('menu3')"><a href="portfolio.html" class="portfolio"">PORTFOLIO</a></div>
+               <div id="contactus-cell"><a href="contact_us.html" class="contactus">CONTACT US</a></div>
+               <div id="openpositions-cell" style="background-image:url(images/nav_bkgrd_middle_open.gif);background-repeat:repeat-x;"><a href="positions_available.html" class="openpositions" style="line-height:22px;">POSITIONS AVAILABLE</a></div>
+            </div>
+            <div style="float:right;"><img src="images/nav_bkgrd_right2.gif" alt="" /></div>
+        </div>
+
+        <div id="subnav">
+        
+        <div id="menu1Container" style="visibility: hidden;height:28px; "> 
+            <div id="menu1Content" class="dropmenu"> 
+                <div class="options">
+	                <div onclick="redirect('our_story.html');" class="subnav" style="width:150px;clear:left;">OUR STORY</div>
+                    <div onclick="redirect('our_team.html');" class="subnav" style="width:155px;">OUR TEAM</div>
+                    <div onclick="redirect('our_partners.html');" class="subnav" style="width:180px;">OUR PARTNERS</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="menu2Container" style="visibility: hidden;height:28px; "> 
+            <div id="menu2Content" class="dropmenu"> 
+                <div class="options">
+	                <div onclick="redirect('run.html');" class="subnav" style="width:130px;clear:left;">R.U.N</div>
+                    <div onclick="redirect('ourTeam.html');" class="subnav" style="width:135px;">J.O.G</div>
+                    <div onclick="redirect('ourPartners.html');" class="subnav" style="width:160px;">W.A.L.K</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="menu3Container" style="visibility: hidden;height:28px; "> 
+            <div id="menu3Content" class="dropmenu"> 
+                <div class="options">
+	                <div onclick="redirect('run.html');" class="subnav" style="width:250px;clear:left;">WHAT OUR CLIENTS SAY</div>
+                    <div onclick="redirect('ourTeam.html');" class="subnav" style="width:165px;">CASE STUDIES</div>
+                </div>
+            </div>
+        </div>
+        
+        
+        </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div id="main" style="">
+
+    	<div id="innerMain">
+
+            <div id="innerinnerMain">
+
+            <div><h1>Contact Creative Alignments</h1></div>
+
+            <div style="clear:left;width:100%;padding-bottom:20px;">
+
+            <h4 style="margin-bottom:7px;">1906 13th St. Suite 304</h4>
+
+            <h4 style="margin-bottom:7px;">Boulder, CO 80302</h4>
+
+            <h4 style="margin-bottom:7px;">303.489.5050</h4>
+
+            <h4 style="margin-bottom:7px;"><a style="font-size:17px;" href="mailto:info@creativealignments.com">info@creativealignments.com</a></h4>
+
+
+
+
+
+             </div>
+
+
+             <div style="clear:left;width:100%;height:100px;"></div>
+
+
+
+
+
+            </div><!-- end of innerinnermain container -->
+
+    	
+
+   
+                   <!-- Footer -->
+                   <div id="footerspacer" style="clear:both;width:100%;height:28px;padding-top:0px;background-color:#e8a61c;">
+                    <div style="padding-top:6px;">
+                       <div id="phone" style="line-height:18px;">303.489.5050</div>
+                       <div id="email"><a href="mailto:info@creativealignments.com" style="text-decoration:none;line-height:18px;">info@creativealignments.com</a></div>
+                       <div id="address" style="line-height:18px;">1906 13th St. Suite 304, Boulder, CO 80302</div>
+                       <div id="copyright" style="line-height:18px;">&#169; 2013 Creative Alignments</div>
+                       </div>
+                   </div>
+
+              </div><!-- end of innermain container -->
+
+   </div><!-- end of main container -->
+
+   <!-- Social Media -->
+   <div style="clear:left;padding-left:20px;padding-top:18px;">
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://www.facebook.com/pages/Creative-Alignments/195434367163626?ref=tn_tinyman"><img src="images/facebook.jpg" /></a></div>
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://twitter.com/#!/CArecruiting"><img src="images/twitter.jpg" /></a></div>
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://www.linkedin.com/company/creative-alignments"><img src="images/linkedin.jpg" /></a></div>
+   </div>
+
+</div><!-- End of homecontainer -->
+
+</body>
+</html>

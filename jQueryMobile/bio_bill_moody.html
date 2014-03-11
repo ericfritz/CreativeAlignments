@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <title>Creative Alignments | Bill Moody</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="css/themes/CreativeAlignments.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile.structure-1.3.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).bind("mobileinit", function () {
+            $.mobile.loadingMessage = false;
+        });
+
+        function redirect(url) {
+            location.href = url;
+        }
+    </script> 
+
+    <style type="text/css">
+    /* override style */
+    
+.ui-header .ui-title, .ui-footer .ui-title {
+    /*font-size:20px;*/
+    /* top right/left bottom */
+    margin: 0.6em 2% 0.8em;
+}
+
+.ui-header-fixed, .ui-footer-fixed {
+    /*position: relative;*/
+}
+    
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+    <div data-role="page" data-theme="a">
+
+
+    <div data-role='header' style="">  
+        <!-- <h1>Creative Alignments</h1> -->
+        <img src="../images/creative_alignments_logo.jpg" onclick="redirect('index.html')" style="width:100%;border:0;" />
+    </div>
+
+	<div data-role="content" style="clear:left; background-color:White;">
+
+
+            <div><h2 style="color:#0075b4;">Bill Moody</h2></div>
+
+                    
+            <div style="clear:left;width:100%;padding-bottom:20px;">
+                    <h4>Senior Recruiter</h4>
+                    Bill has a passion for recruiting and enjoys working with people to find the best talent for the position and the company. He brings more than 15 years of recruiting experience to Creative Alignments. <br /><br />
+
+For the last seven years he served as the Corporate Recruiting Manager for one of the world’s largest air medical transportation companies, Air Methods Corporation. Bill was charged directly with recruiting all corporate campus and aviation positions to include finance, IT, engineering, pilots, production, and manufacturing. He managed and mentored the recruiting team and led strategic initiatives that included creating a new interview/hiring process that resulted in hiring a record number of more qualified candidates. Prior to this, Bill enjoyed working for Highland Technical Staffing in Longmont as a Technical Recruiter supporting their prime vendor role at IBM in Boulder. He also served as an Account Manager acquiring a contract for 250 positions supporting training for the Transportation Security Administration. Before his recruiting life Bill worked in the airline and aerospace industries for thirteen years. This included seven years as a manager supporting aircraft maintenance and manufacturing where he was recognized by senior management and his work teams for his notable leadership. <br /><br />
+
+Bill holds a degree in General Education, a certification in Network Engineering and a Private Pilots certificate. His free time is spent with his wife mountain biking, hiking, camping, kayaking, and enjoying time with family and friends.
+
+
+
+
+
+<br /><br />
+                    Email at <a href="mailto:bill@creativealignments.com">bill@creativealignments.com</a> 
+                    </div>
+
+
+
+            <div style="clear:left;width:100%;height:25px;"></div>
+
+                     <div style="width:100%;"><div style="margin: 0 auto;"><a href="our_team.html" target='_self' data-role='button' data-inline='true' data-mini='true' data-icon='arrow-l' data-theme='a'>back to team</a></div></div>
+
+            <div style="clear:left;width:100%;height:25px;"></div>
+
+
+	</div>
+
+    <div data-role="footer" data-theme="b">
+
+        <h1 id="footer">&#169; 2013 Creative Alignments</h1>
+
+    </div><!-- /footer -->
+
+    </div><!-- /page -->
+
+
+    </form>
+</body>
+</html>

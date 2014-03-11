@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Creative Alignments | Our Partners</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<script type="text/javascript" src="js/browserDetection.js"></script>
+<script type="text/javascript">
+    // add separate style sheet for chrome or firefox because web fonts dont look good in these non-anti-alias browsers
+
+    if (BrowserDetect.OS == 'Windows' && (BrowserDetect.browser == 'Firefox' || BrowserDetect.browser == 'Chrome')) {
+
+        //alert("You are using Windows and Firefox/Chrome");
+
+        document.write('<link rel="stylesheet" type="text/css" href="commonChromeFirefox.css" />')
+        document.write('<link rel="stylesheet" type="text/css" href="navChromeFirefox.css" />');
+    }
+    else {
+        document.write('<link rel="stylesheet" type="text/css" href="commonNew.css" />')
+        document.write('<link rel="stylesheet" type="text/css" href="navNew.css" />');
+    }
+
+</script>
+
+<link href="jcarousel.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+    
+<script type="text/javascript" language="javascript">
+
+    jQuery(document).ready(function () {
+
+        /*$('#services-cell').mouseout(function () {
+        $('#currentMenu').slideDown('slow', function () {
+        // Animation complete.  
+        });
+        });*/
+
+        /*$('#subnav_run').mouseout(function () {
+            $('#currentMenu').show().delay(3000);
+        });*/
+
+
+        jQuery('#mycarousel').jcarousel({
+            wrap: 'circular',
+            visible: 3,
+            scroll: 3,
+            auto: 3,
+            animation: 1100,
+            size: 22
+        });
+    });
+
+    function redirect(url) {  
+        location.href = url;  
+    }
+
+</script>
+
+<script type="text/javascript" language="javascript" src="js/ypSlideOutMenusC.js"></script>
+<script type="text/javascript" language="javascript">
+    //This sets the size and position of each drop-down for all others- left, top, width, height.
+    new ypSlideOutMenu("menu1", "down", 332, 0, 516, 30);
+    new ypSlideOutMenu("menu2", "down", 198, 0, 680, 30);
+    new ypSlideOutMenu("menu3", "down", 444, 0, 260, 30);
+</script>
+
+<script type="text/javascript" src="//use.typekit.net/dvf0zmt.js"></script>
+<script type="text/javascript">    try { Typekit.load(); } catch (e) { }</script>
+
+</head>
+
+<body id="aboutus">
+
+<div id="homecontainer">
+
+    <div id="header">
+        <div id="logo"><a href="index.html" class="home"><img src="images/creative_alignments_logo.jpg" alt="creative alignments"/></a></div>
+
+        <div id="navigation" onmouseout="showCurrentMenu();">        
+            <div style="float:left;"><img src="images/nav_bkgrd_left2.gif" alt="" /></div>
+            <div class="nav">
+               <div id="index-cell" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();"><a href="index.html" class="index" >HOME</a></div>
+               <div id="services-cell" onmouseover="hideCurrentMenu();ypSlideOutMenu.showMenu('menu2');" onmouseout="ypSlideOutMenu.hideMenu('menu2');showDelayedCurrentMenu();"><a href="services.html" class="services">SERVICES</a></div>
+               <div id="aboutus-cell"><a href="about.html" class="aboutus">ABOUT</a></div>
+               <div id="portfolio-cell" onmouseover="hideCurrentMenu();ypSlideOutMenu.showMenu('menu3')" onmouseout="ypSlideOutMenu.hideMenu('menu3');showDelayedCurrentMenu();"><a href="clients.html" class="portfolio">CLIENTS</a></div>
+               <div id="contactus-cell" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();"><a href="contact.html" class="contactus">CONTACT</a></div>
+               <div id="openpositions-cell" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();" style="background-image:url(images/nav_bkgrd_middle_open.gif);background-repeat:repeat-x;"><a href="featured_jobs.html" class="openpositions">FEATURED JOBS</a></div>
+            </div>
+            <div style="float:right;"><img src="images/nav_bkgrd_right2.gif" alt="" /></div>
+        </div>
+
+        <div id="subnav">
+        
+        <div id="currentMenu" style="display:block;z-index:0;padding-left:332px;height:24px;width:516px;"> 
+            <div id="menu1Content" class="dropmenu" style="background-color:#a9343a;height:28px;"> 
+                <div class="options">
+	                <div onclick="redirect('our_story.html');" class="subnav" style="width:150px;clear:left;">OUR STORY</div>
+                    <div onclick="redirect('our_team.html');" class="subnav" style="width:155px;">OUR TEAM</div>
+                    <div onclick="redirect('our_alliances.html');" class="subnav" style="width:180px;background-color:#a9343a;color: White;">OUR ALLIANCES</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="menu2Container" style="visibility: hidden;height:28px; "> 
+            <div id="menu2Content" class="dropmenu" style="background-color:#a9343a;height:28px;"> 
+                <div class="options">
+	                <div onclick="redirect('ruru_run.html');" class="subnav" style="width:180px;clear:left;">RAMPING UP NOW</div>
+                    <div onclick="redirect('ruru_jog.html');" class="subnav" style="width:260px;">JUGGLING ORDINARY GROWTH</div>
+                    <div onclick="redirect('ruru_walk.html');" class="subnav" style="width:210px;">WHILE ALL LOOKS KALM</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="menu3Container" style="visibility: hidden;height:28px; "> 
+            <div id="menu3Content" class="dropmenu" style="background-color:#a9343a;height:28px;"> 
+                <div class="options">
+	                <div onclick="redirect('clients_say.html');" class="subnav" style="width:250px;clear:left;" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();">WHAT OUR CLIENTS SAY</div>
+                    <!--<div onclick="redirect('case_studies.html');" class="subnav" style="width:165px;" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();">CASE STUDIES</div>-->
+                </div>
+            </div>
+        </div>
+        
+        
+        </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div id="main" style="">
+
+    	<div id="innerMain">
+
+            <div id="innerinnerMain">
+
+            <div><h1>Our Alliances</h1></div>
+
+             <div style="clear:left;width:95%;padding-bottom:20px;">It takes a village to be successful. We value our relationships with the many individuals and organizations that collaborate with us as we deliver the best for our clients. <span style="text-transform:uppercase;" class="redMuseoSlabNoBold15">Here are some of our favorite partners:</span></div>
+
+             <div style="clear:left;width:95%;height:2px;border-bottom:2px solid #b8b8b8;margin-bottom:10px;"></div>
+
+             <div style="clear:left;float:left;width:250px;"><div style="margin-top:5px"><img src="images/lukes_circle_logo.jpg" alt="" style="vertical-align:middle;" /></div></div>
+             <div style="float:left;width:530px;padding-top:5px;padding-left:15px;"><h4>Luke's Circle</h4>Luke’s Circle is a network and email list of talented professionals seeking opportunities in Boulder-Denver growth companies.  It connects some of the area’s leading employers to a circle of qualified professionals and also provides those professionals with direct access to the latest local opportunities.<br /><br />In March 2013 Luke’s Circle and Creative Alignments launched a partnership to offer a valuable new service for job-seeking professionals.  This is a rare opportunity to receive personalized advice directly from a professional recruiter on how you can improve your job search prospects. This one-on-one phone session will cover some of the following topics:<br /><ul><li>What employers and recruiters look for and how they review candidates</li><li>Strategies for how to improve your job search</li><li>High-level resume feedback</li><li>Optimizing your LinkedIn profile and the importance of social/online profiles done well</li><li>Resources for finding opportunities</li><li>Networking suggestions</li><li>Tips for pursuing a job search remotely (if applicable)</li></ul>You can learn more about and/or sign up for your own personalized Job Search Strategy Session at <a href="http://www.lukescircle.com" target="_blank">www.lukescircle.com</a><br /><br /></div>
+
+             <div style="clear:left;width:95%;height:2px;border-bottom:2px solid #b8b8b8;"></div>
+             <div style="clear:left;width:100%;height:20px;"></div>
+
+             <div style="clear:left;float:left;width:250px;"><div style="margin-top:5px"><img src="images/red_idea_logo.jpg" alt="" /></div></div>
+             <div style="float:left;width:530px;padding-top:5px;padding-left:15px;"><h4>Red Idea Partners</h4>Red Idea provides strategic consulting for promising growth companies and entrepreneurs. Our "Venture Works" component partners with select companies. We help clients scale their businesses realistically and intelligently.<br /><br />
+ 
+Our consulting abilities span many aspects of business: core strategy, finance, fundraising, sales and marketing, brand development, operations and team hiring/development. We are senior specialists and advisors from many facets of business and industry, bringing "best practice" teams and solutions to address our clients’ needs. <a href="http://www.redideapartners.com" target="_blank">www.redideapartners.com</a><br /><br /></div>
+
+             <div style="clear:left;width:95%;height:2px;border-bottom:2px solid #b8b8b8;"></div>
+             <div style="clear:left;width:100%;height:20px;"></div>
+
+             <div style="clear:left;float:left;width:250px;"><div style="margin-top:5px"><img src="images/relish_creative_logo.jpg" alt="" style="vertical-align:middle;" /></div></div>
+             <div style="float:left;width:530px;padding-top:5px;padding-left:15px;"><h4>Relish Creative</h4>Relish Creative is a design + strategy studio servicing clients with branding, packaging, and web design needs. We aim to bring your brand to life in innovative, dynamic ways that can communicate through many different touch points. <br /><br />
+
+Relish Creative is headed by Elysia Syriac. Her fresh, modern outlook toward design brings her clients’ ideas to life in an extraordinary way. Her research skills provide in-depth, relative solutions and experience with print design and interactive allows for a unified vision across all mediums.<br /><br /></div>
+
+             <div style="clear:left;width:95%;height:2px;border-bottom:2px solid #b8b8b8;"></div>
+             <div style="clear:left;width:100%;height:20px;"></div>
+
+             <div style="clear:left;float:left;width:250px;"><div style="margin-top:0px"><img src="images/colorado_by_nature_logo.jpg" alt="" style="vertical-align:middle;" /></div></div>
+             <div style="float:left;width:530px;padding-top:5px;padding-left:15px;"><h4>Colorado Entrepreneurial by Nature</h4>Colorado Entrepreneurial by Nature is companies, innovators, and professional misfits who stand-fast with a united creed that “Colorado is entrepreneurial by nature.”<br /><br /></div>
+
+             <div style="clear:left;width:95%;height:2px;border-bottom:2px solid #b8b8b8;"></div>
+             <div style="clear:left;width:100%;height:20px;"></div>
+
+
+
+
+             <div style="clear:left;width:100%;height:45px;"></div>
+
+
+
+
+
+            </div><!-- end of innerinnermain container -->
+
+    	
+
+   
+                   <!-- Footer -->
+                   <div id="footerspacer" style="clear:both;width:100%;height:28px;padding-top:0px;background-color:#e8a61c;">
+                    <div style="padding-top:6px;">
+                       <div id="phone" style="line-height:18px;">303.835.9066</div>
+                       <div id="email"><a href="mailto:info@creativealignments.com" style="text-decoration:none;line-height:18px;">info@creativealignments.com</a></div>
+                       <div id="address" style="line-height:18px;">4760 Walnut St, Suite 106, Boulder, CO 80301</div>
+                       <div id="copyright" style="line-height:18px;">&#169; 2013 Creative Alignments</div>
+                       </div>
+                   </div>
+
+              </div><!-- end of innermain container -->
+
+   </div><!-- end of main container -->
+
+   <!-- Social Media -->
+   <div style="clear:left;padding-left:20px;padding-top:18px;">
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://www.facebook.com/pages/Creative-Alignments/195434367163626?ref=tn_tinyman"><img src="images/facebook.jpg" /></a></div>
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://twitter.com/#!/CArecruiting"><img src="images/twitter.jpg" /></a></div>
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://www.linkedin.com/company/creative-alignments"><img src="images/linkedin.jpg" /></a></div>
+   </div>
+
+</div><!-- End of homecontainer -->
+
+</body>
+</html>

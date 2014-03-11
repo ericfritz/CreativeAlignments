@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <title>Creative Alignments | Services</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="css/themes/CreativeAlignments.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile.structure-1.3.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).bind("mobileinit", function () {
+            $.mobile.loadingMessage = false;
+        });
+
+        function redirect(url) {
+            location.href = url;
+        }
+    </script> 
+
+    <style type="text/css">
+    /* override style */
+    
+.ui-header .ui-title, .ui-footer .ui-title {
+    /*font-size:20px;*/
+    /* top right/left bottom */
+    margin: 0.6em 2% 0.8em;
+}
+
+.ui-header-fixed, .ui-footer-fixed {
+    /*position: relative;*/
+}
+    
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+    <div data-role="page" data-theme="a">
+
+
+    <div data-role='header' style="">  
+        <!-- <h1>Creative Alignments</h1> -->
+        <img src="../images/creative_alignments_logo.jpg" onclick="redirect('index.html')" style="width:100%;border:0;" />
+    </div>
+
+	<div data-role="content" style="clear:left; background-color:White;">
+
+            <div style="clear:both;">
+            <div style="clear:left;padding-top:2px;padding-bottom:2px;"><h3 style="color:#0075b4;">R.U.N.</h3><h3 style="color:#0075b4;">R U Ramping Up Now?</h3></div>
+
+             <div style="clear:left;"><b>If your company is in rapid growth mode, we can fill your open reqs with great hires quickly while freeing up your time and saving you money.</b>
+            </div>
+
+            <div style="clear:both;padding-top:20px;">
+
+                <div style="clear:left;">With most of our R.U.N. clients, we will place 1 to 3 recruiters onsite at your offices to make the process of hiring a high volume of new employees both efficient and effective.  We can blend seamlessly into your team, working closely with your hiring managers, HR director and/or others.  We can be as strategically-focused (establishing recruiting processes, improving your employment brand, etc.) or as execution-oriented (simply filling reqs) as you desire us to be.  We can increase or decrease our team’s weekly hours according to your ever-changing business needs.  While you benefit from the state-of-the-art sourcing tools we have invested in such as LinkedIn Recruiter seats, Gild subscriptions, DICE databases and more, we can fully integrate our process into any business or applicant tracking systems already in place  Essentially, we are highly flexible and can adapt to your needs, processes, and styles accordingly.</div>
+
+            </div>
+             
+             <div style="">
+             <img src="../images/ruru/ruru_run.jpg" style="width:100%" alt="" />
+             </div>
+
+            <div style="clear:left;width:100%;height:25px;"></div>
+
+                     <div style="width:100%;"><div style="margin: 0 auto;"><a href="index.html" target='_self' data-role='button' data-inline='true' data-mini='true' data-icon='arrow-l' data-theme='a'>back to main menu</a></div></div>
+
+                     <div style="clear:left;width:100%;height:25px;"></div>
+		
+	</div><!-- content -->
+
+    <div data-role="footer" data-theme="b">
+
+        <h1 id="footer">&#169; 2013 Creative Alignments</h1>
+
+    </div><!-- /footer -->
+
+    </div><!-- /page -->
+
+
+    </form>
+</body>
+</html>

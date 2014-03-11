@@ -1,0 +1,278 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Creative Alignments | What Our Clients Say</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<script type="text/javascript" src="js/browserDetection.js"></script>
+<script type="text/javascript">
+    // add separate style sheet for chrome or firefox because web fonts dont look good in these non-anti-alias browsers
+
+    if (BrowserDetect.OS == 'Windows' && (BrowserDetect.browser == 'Firefox' || BrowserDetect.browser == 'Chrome')) {
+
+        //alert("You are using Windows and Firefox/Chrome");
+
+        document.write('<link rel="stylesheet" type="text/css" href="commonChromeFirefox.css" />')
+        document.write('<link rel="stylesheet" type="text/css" href="navChromeFirefox.css" />');
+    }
+    else {
+        document.write('<link rel="stylesheet" type="text/css" href="commonNew.css" />')
+        document.write('<link rel="stylesheet" type="text/css" href="navNew.css" />');
+    }
+
+</script>
+
+<link href="jcarousel.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+    
+<script type="text/javascript" language="javascript">
+
+    jQuery(document).ready(function () {
+
+        /*$('#services-cell').mouseout(function () {
+        $('#currentMenu').slideDown('slow', function () {
+        // Animation complete.  
+        });
+        });*/
+
+        /*$('#subnav_run').mouseout(function () {
+            $('#currentMenu').show().delay(3000);
+        });*/
+
+
+        jQuery('#mycarousel').jcarousel({
+            wrap: 'circular',
+            visible: 3,
+            scroll: 3,
+            auto: 3,
+            animation: 1100,
+            size: 22
+        });
+    });
+
+    function redirect(url) {  
+        location.href = url;  
+    }
+
+</script>
+
+<script type="text/javascript" language="javascript" src="js/ypSlideOutMenusC.js"></script>
+<script type="text/javascript" language="javascript">
+    //This sets the size and position of each drop-down for all others- left, top, width, height.
+    new ypSlideOutMenu("menu1", "down", 332, 0, 516, 30);
+    new ypSlideOutMenu("menu2", "down", 198, 0, 680, 30);
+    new ypSlideOutMenu("menu3", "down", 444, 0, 260, 30);
+</script>
+
+<script type="text/javascript" src="//use.typekit.net/dvf0zmt.js"></script>
+<script type="text/javascript">    try { Typekit.load(); } catch (e) { }</script>
+
+</head>
+
+<body id="portfolio">
+
+<div id="homecontainer">
+
+    <div id="header">
+        <div id="logo"><a href="index.html" class="home"><img src="images/creative_alignments_logo.jpg" alt="creative alignments"/></a></div>
+
+        <div id="navigation" onmouseout="showCurrentMenu();">        
+            <div style="float:left;"><img src="images/nav_bkgrd_left2.gif" alt="" /></div>
+            <div class="nav">
+               <div id="index-cell" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();"><a href="index.html" class="index" >HOME</a></div>
+               <div id="services-cell" onmouseover="hideCurrentMenu();ypSlideOutMenu.showMenu('menu2')" onmouseout="ypSlideOutMenu.hideMenu('menu2');showDelayedCurrentMenu();"><a href="services.html" class="services">SERVICES</a></div>
+               <div id="aboutus-cell" onmouseover="hideCurrentMenu();ypSlideOutMenu.showMenu('menu1');" onmouseout="ypSlideOutMenu.hideMenu('menu1');showDelayedCurrentMenu();"><a href="about.html" class="aboutus">ABOUT</a></div>
+
+               <div id="portfolio-cell"><a href="clients.html" class="portfolio">CLIENTS</a></div>
+
+               <div id="contactus-cell" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();"><a href="contact.html" class="contactus">CONTACT</a></div>
+               <div id="openpositions-cell" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();" style="background-image:url(images/nav_bkgrd_middle_open.gif);background-repeat:repeat-x;"><a href="featured_jobs.html" class="openpositions">FEATURED JOBS</a></div>
+            </div>
+            <div style="float:right;"><img src="images/nav_bkgrd_right2.gif" alt="" /></div>
+        </div>
+
+        <div id="subnav">
+        
+        <div id="menu1Container" style="visibility: hidden;height:28px; "> 
+            <div id="menu1Content" class="dropmenu" style="background-color:#a9343a;height:28px;"> 
+                <div class="options">
+	                <div onclick="redirect('our_story.html');" class="subnav" style="width:150px;clear:left;" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();">OUR STORY</div>
+                    <div onclick="redirect('our_team.html');" class="subnav" style="width:155px;" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();">OUR TEAM</div>
+                    <div onclick="redirect('our_alliances.html');" class="subnav" style="width:180px;" onmouseover="hideCurrentMenu();" onmouseout="showDelayedCurrentMenu();">OUR ALLIANCES</div>
+                </div>
+            </div>
+        </div>
+
+         <div id="menu2Container" style="visibility: hidden;height:28px; "> 
+            <div id="menu2Content" class="dropmenu" style="background-color:#a9343a;height:28px;"> 
+                <div class="options">
+	                <div onclick="redirect('ruru_run.html');" class="subnav" style="width:180px;clear:left;">RAMPING UP NOW</div>
+                    <div onclick="redirect('ruru_jog.html');" class="subnav" style="width:260px;">JUGGLING ORDINARY GROWTH</div>
+                    <div onclick="redirect('ruru_walk.html');" class="subnav" style="width:210px;">WHILE ALL LOOKS KALM</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="currentMenu" style="display:block;z-index:0;padding-left:444px;height:28px;width:260px;"> 
+            <div id="menu3Content" class="dropmenu" style="background-color:#a9343a;height:28px;"> 
+                <div class="options">
+	                <div onclick="redirect('clients_say.html');" class="subnav" style="width:250px;clear:left;background-color:#a9343a;color: White;">WHAT OUR CLIENTS SAY</div>
+                    <!--<div onclick="redirect('case_studies.html');" class="subnav" style="width:165px;">CASE STUDIES</div>-->
+                </div>
+            </div>
+        </div>
+        
+        
+        </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div id="main" style="">
+
+    	<div id="innerMain" style="">
+
+            <div id="innerinnerMain" style="padding-bottom:0px; ">
+
+
+            <div style="clear:left;padding-top:2px;padding-bottom:8px;"><h1>What Our Clients Say</h1></div>
+
+
+            <div style="clear:left;width:870px;">
+            <div style="clear:left;float:left;width:58px;padding-right:12px;"><img src="images/client_quote_mark.jpg" alt="" /></div>
+            <div style="float:left;width:750px;">
+                    <h4>Hannah Levine, HR Manager, SolidFire </h4>
+                    “Our experience with the Creative Alignments team has been nothing but positive. Without hesitation the Creative Alignments team jumped in and began working with us on projects both big and small. They took the time to understand our business needs and help us to create a talent acquisition program that is both robust and scalable. Most importantly, Creative Alignments offers us a level of flexibility and personal touch that simply does not exist with external recruiters. I highly recommend the services offered by Creative Alignments and look forward to our ongoing work together. You guys rock!!!”  
+                    </div>
+
+                    
+             </div>
+
+             <div style="clear:left;width:100%;height:30px;"></div>
+
+
+            <div style="clear:left;width:870px;">
+            <div style="clear:left;float:left;width:58px;padding-right:12px;"><img src="images/client_quote_mark.jpg" alt="" /></div>
+            <div style="float:left;width:750px;">
+                    <h4>Richard Lappen, Founder & Partner, Natural Food Works</h4>
+                    "Creative Alignments came through for us in an unusually challenging situation. Their organization and communication skills were among the characteristics that particularly made them standout from other recruiting resources we have used in the past. <br /><br /> 
+                    We engaged CA to recruit core team members who could hit the ground running as we launched multiple food co-manufacturing facilities. We simultaneously were seeking to hire our first employees while also completing our capital fundraising efforts. CA was so efficient that they found us terrific people quickly and then had to keep our top candidates engaged and enthused about the opportunity at Natural Food Works for over a month while we secured the funding necessary to be able to bring them on board and open our first facility.<br /><br />
+                    Katie and Bill worked as a team to bring us our top-notch Production Managers, Warehouse Manager, Procurement Manager, Controller, Quality Manager, and others who have enabled Natural Food Works to get off to a tremendous start. Thank you Creative Alignments!"
+
+                    </div>
+
+                    
+             </div>
+
+             <div style="clear:left;width:100%;height:30px;"></div>
+
+
+            <div style="clear:left;width:870px;">
+            <div style="clear:left;float:left;width:58px;padding-right:12px;"><img src="images/client_quote_mark.jpg" alt="" /></div>
+            <div style="float:left;width:750px;">
+                    <h4>Tre Musco, CEO, Tesser</h4>
+                    “I have been trusting Creative Alignments Founder & CEO Peggy Shell for the past fourteen years with understanding our company and supporting our personnel needs in the form of HR and all our hiring. As a busy agency with billable employees, it’s been great to have them to hand off this time-intensive work.” </div>
+            </div>
+
+            <div style="clear:left;width:100%;height:30px;"></div>
+
+            <div style="clear:left;width:870px;">
+            <div style="clear:left;float:left;width:58px;padding-right:12px;"><img src="images/client_quote_mark.jpg" alt="" /></div>
+            <div style="float:left;width:750px;">
+                    <h4>Katherine Gregory, VP Strategy and Supply Chain, Madhava Natural Sweeteners</h4>
+                    “The team at Creative Alignments does a great job of understanding client needs and finding applicable talent. As an extension of our management team, we know Creative Alignments finds us the best talent efficiently and cost-effectively. The cost structure is different from what I am used to, but I have been very happy with the cost-per-hire outcome we have gotten with Creative Alignments. Strongly recommend!"</div>
+            </div>
+
+
+            <div style="clear:left;width:100%;height:30px;"></div>
+
+            <div style="clear:left;width:870px;">
+            <div style="clear:left;float:left;width:58px;padding-right:12px;"><img src="images/client_quote_mark.jpg" alt="" /></div>
+            <div style="float:left;width:750px;">
+                    <h4>Corey Bezyak, Director of Engineering, Nimsoft </h4>
+                    “I worked closely with Creative Alignments to fill over 15 positions in a software engineering organization. Creative Alignments did a phenomenal job of providing a steady stream of candidates to the management team and coordinating the interview process to ensure we hired top tier talent.”</div>
+            </div>
+
+
+            <div style="clear:left;width:100%;height:30px;"></div>
+
+            <div style="clear:left;width:870px;">
+            <div style="clear:left;float:left;width:58px;padding-right:12px;"><img src="images/client_quote_mark.jpg" alt="" /></div>
+            <div style="float:left;width:750px;">
+                    <h4>Jen Constable, Vermilion Design + Interactive </h4>
+                    “You guys are spot on with your assessment of our needs and getting us the right candidates. You are just fantastic.”</div>
+            </div>
+
+
+            <div style="clear:left;width:100%;height:30px;"></div>
+
+            <div style="clear:left;width:870px;">
+            <div style="clear:left;float:left;width:58px;padding-right:12px;"><img src="images/client_quote_mark.jpg" alt="" /></div>
+            <div style="float:left;width:750px;">
+                    <h4>Matt Tager, Director of Talent Acquisition, Nimsoft </h4>
+                    “I hired Creative Alignments Founder & CEO Peggy Shell to manage the recruiting process for our remote office in Ft. Collins, Colorado and I was very pleased with her work. Peggy took ownership of a situation that was in dire need of attention, earned the trust of her hiring managers, made sure there was a steady stream of qualified candidates and filled seats. She is extremely organized, an excellent communicator, learned the technology and market quickly, and got to work right away. I would highly recommend Peggy and her team to any company that needs someone to take ownership of their recruiting process, and I would definitely bring them back for future needs.”</div>
+            </div>
+
+
+            <div style="clear:left;width:100%;height:30px;"></div>
+
+            <div style="clear:left;width:870px;">
+            <div style="clear:left;float:left;width:58px;padding-right:12px;"><img src="images/client_quote_mark.jpg" alt="" /></div>
+            <div style="float:left;width:750px;">
+                    <h4>WavenDean Fernandes, Business Development Candidate placed by Creative Alignments </h4>
+                    “Peggy and I got to know each other when she was qualifying me as a potential candidate for Tesser, one of the companies Creative Alignments represents…Peggy was a wonderful coach and guide throughout the whole process of interaction with this company where I now have an initial contract engagement. <br /><br />
+As a candidate for a potential position with the companies they represent, you never get the feeling that they are only concerned about their needs at the expense of yours. I truly felt that Peggy and her team were just as focused and concerned about making sure the 'fit' was right on both sides of the table to ensure that I would be positioned in the best possible way with the 'right' company. They are all about setting up both parties for a long-term successful relationship either in a contract or employee position. <br /><br />
+</div>
+
+
+
+
+        <div style="clear:left;float:left;width:58px;padding-right:12px;">&nbsp;</div>
+            <div style="float:left;width:485px;">
+
+            Peggy not only approached the interaction between the company and myself as a potential candidate professionally but she did it with personal warmth, humor and a disarming way of making you feel at ease and removing any sense of nervousness and apprehension through her skillful coaching, encouragement and insights about how best to showcase your abilities and talents to this potential employer. Peggy is truly a recruiter who not only knows the business of getting the right people in the right positions...she does it with heart, passion, warmth and generosity. <br /><br />
+I heartily endorse any company that wants to retain Creative Alignments to address their staffing needs. And I say to any candidate who is interacting with Peggy regarding a specific posting, 'just know that you are in great hands!’"
+            </div>
+
+                    </div>
+
+                    <div style="float:left;width:245px;padding-left:30px;"><img src="images/ruru/ruru_we_love_to_make_our_clients_happy.jpg" alt="" /></div>
+                
+
+                     <div style="clear:left;width:100%;height:45px;"></div>
+
+
+
+
+            </div><!-- end of innerinnermain container -->
+
+
+
+            
+   
+                   <!-- Footer -->
+                   <div id="footerspacer" style="clear:both;width:100%;height:28px;padding-top:0px;background-color:#e8a61c;">
+                    <div style="padding-top:6px;">
+                       <div id="phone" style="line-height:18px;">303.835.9066</div>
+                       <div id="email"><a href="mailto:info@creativealignments.com" style="text-decoration:none;line-height:18px;">info@creativealignments.com</a></div>
+                       <div id="address" style="line-height:18px;">4760 Walnut St, Suite 106, Boulder, CO 80301</div>
+                       <div id="copyright" style="line-height:18px;">&#169; 2013 Creative Alignments</div>
+                       </div>
+                   </div>
+
+              </div><!-- end of innermain container -->
+
+   </div><!-- end of main container -->
+
+   <!-- Social Media -->
+   <div style="clear:left;padding-left:20px;padding-top:18px;">
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://www.facebook.com/pages/Creative-Alignments/195434367163626?ref=tn_tinyman"><img src="images/facebook.jpg" /></a></div>
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://twitter.com/#!/CArecruiting"><img src="images/twitter.jpg" /></a></div>
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://www.linkedin.com/company/creative-alignments"><img src="images/linkedin.jpg" /></a></div>
+   </div>
+
+</div><!-- End of homecontainer -->
+
+</body>
+</html>

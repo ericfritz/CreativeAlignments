@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Creative Alignments | Team</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link href="common.css" rel="stylesheet" type="text/css" />
+<link href="nav.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="leadership">
+
+<div id="blankcontainer">
+
+    <div id="header">
+        <div id="logo" style="float:left;"><a href="index.html" class="home"><img src="images/creative_alignments_logo.jpg" alt="creative alignments"/></a></div>
+        <div id="navigation" style="clear:both;width:905px;">        
+            <div style="float:left;"><img src="images/nav_bkgrd_left.gif" alt="" /></div>
+            <div class="nav">
+               <div id="aboutus-cell"><a href="aboutus.html" class="aboutus" style="line-height:22px;">About Us</a></div>
+               <div class="navdots2"><img src="images/nav_bkgrd_dot.gif" alt="leadership" /></div>
+               <div id="leadership-cell"><a href="team.html" class="leadership" style="line-height:22px;">Team</a></div>
+               <div class="navdots2"><img src="images/nav_bkgrd_dot.gif" alt="services" /></div>
+               <div id="services-cell"><a href="services.html" class="services" style="line-height:22px;">Services</a></div>
+               <div class="navdots2"><img src="images/nav_bkgrd_dot.gif" alt="creative" /></div>
+               <div id="whyus-cell"><a href="whyus.html" class="whyus" style="line-height:22px;">Why Us</a></div>
+               <div class="navdots2"><img src="images/nav_bkgrd_dot.gif" alt="alignments" /></div>
+               <div id="contactus-cell"><a href="contactus.html" class="contactus" style="line-height:22px;">Contact Us</a></div>
+               <div class="navdots2"><img src="images/nav_bkgrd_dot.gif" alt="alignments" /></div>
+               <div id="openpositions-cell" style="background-image:url(images/nav_bkgrd_middle_open.gif);background-repeat:repeat-x;"><a href="positions.html" class="openpositions" style="line-height:22px;">Positions Available</a></div>
+            </div>
+            <div style="float:right;"><img src="images/nav_bkgrd_right.gif" alt="" /></div>
+        </div>
+    </div>
+
+    
+    <!-- Main Content Area -->
+    <div id="main">
+        <div style="width:22px;height:100%;float:left;"></div>
+
+    	<div id="leftMain">
+            <div style="width:100%;height:33px;"></div>
+            <div style=""><img src="images/people_in_field.jpg" alt="" /></div>
+            <div style=""><img src="images/experienced_in_the_field.jpg" alt="" /></div>
+    	</div>
+
+        <div id="rightMain">
+
+            <div style="float:left;display:none;"><img src="images/peggy_shell.jpg" alt="" /></div>
+
+            <div style="clear:left;float:left;padding-right:9px;padding-left:15px;"><img src="images/orange_arrow.gif" alt="" /></div>
+            <div class="title1">Our</div>
+            <div class="textNextToTitle" style="width:520px;">talented team encompasses more than 80 years of recruiting</div>
+            
+            <div class="textBelowTitle" style="width:530px;line-height:19px;">and HR experience in a variety of industries, including software/technology, creative services/advertising, natural/organic, consumer goods/packaging, and food/beverage.  Since our team members are listed one per page, please press <img src="images/next_page.gif" style="padding-top:7px;" alt="" /> at the bottom of your screen to scroll through our team bios.</div>
+            <div style="width:100%;height:15px;"></div>
+
+            <div style="clear:left;float:left;padding-right:9px;padding-left:15px;"><img src="images/orange_arrow.gif" alt="" /></div>
+            <div class="title1">Peggy</div>
+            <div class="title2">Shell</div>
+            <div class="textNextToTitle" style="font-weight:bold;">- Founder <span style="font-family:Arial;">&amp;</span> CEO</div>
+            <div class="textBelowTitle" style="width:530px;">Peggy has over a decade of experience working as a recruiting and human resources (HR) specialist. From 1999 to 2003, she was the HR Director for Tesser, a nationally recognized brand and design agency.  Since 2003, she has worked as an independent consultant, helping her clients as a go-to resource for fully managing the placement of new hires, as well as providing on-going support and insight for various HR needs. In 2010, Peggy founded Creative Alignments as the formal launch of her “recruiting + human resources” agency.</div>
+            <div style="width:100%;height:10px;"></div>
+            <div class="textBelowTitle" style="width:530px;">Peggy graduated in 1997 with a B.S. from Northwestern University.  Her passions include being a mom and her yoga practice.</div>
+
+
+
+        </div>
+
+   </div>
+
+   <div style="clear:left;float:left;padding-left:685px;padding-top:7px;"><a href="team2.html"><img src="images/next_page.gif" alt="" /></a></div>
+   
+   <!-- Footer -->
+   <div id="footerspacer" style="clear:both;width:100%;padding-top:13px;">
+   <div id="phone" style="line-height:18px;">303-835-9066</div>
+   <div id="email"><a href="mailto:info@creativealignments.com" style="text-decoration:none;line-height:18px;">info@creativealignments.com</a></div>
+   <div id="address" style="line-height:18px;">4760 Walnut St, Suite 106, Boulder, CO 80301</div>
+   <div id="copyright" style="line-height:18px;">&#169; 2011 Creative Alignments</div>
+   </div>
+
+
+      <!-- Social Media -->
+   <div style="clear:left;padding-left:20px;padding-top:10px;">
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://www.facebook.com/pages/Creative-Alignments/195434367163626?ref=tn_tinyman"><img src="images/facebook.jpg" /></a></div>
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://twitter.com/#!/CArecruiting"><img src="images/twitter.jpg" /></a></div>
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://www.linkedin.com/company/creative-alignments"><img src="images/linkedin.jpg" /></a></div>
+   </div>
+
+</div><!-- End of Container -->
+
+</body>
+</html>

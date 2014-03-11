@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <title>Creative Alignments | Dee Ryan</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="css/themes/CreativeAlignments.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile.structure-1.3.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).bind("mobileinit", function () {
+            $.mobile.loadingMessage = false;
+        });
+
+        function redirect(url) {
+            location.href = url;
+        }
+    </script> 
+
+    <style type="text/css">
+    /* override style */
+    
+.ui-header .ui-title, .ui-footer .ui-title {
+    /*font-size:20px;*/
+    /* top right/left bottom */
+    margin: 0.6em 2% 0.8em;
+}
+
+.ui-header-fixed, .ui-footer-fixed {
+    /*position: relative;*/
+}
+    
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+    <div data-role="page" data-theme="a">
+
+
+    <div data-role='header' style="">  
+        <!-- <h1>Creative Alignments</h1> -->
+        <img src="../images/creative_alignments_logo.jpg" onclick="redirect('index.html')" style="width:100%;border:0;" />
+    </div>
+
+	<div data-role="content" style="clear:left; background-color:White;">
+
+
+            <div><h2 style="color:#0075b4;">Deirdre Ryan</h2></div>
+
+                    
+            <div style="clear:left;width:100%;padding-bottom:20px;">
+                    <h4>Senior Recruiter</h4>
+                    Deirdre Ryan has worked for several software and Internet companies both in Europe and the United States. She studied in Italy and Spain and is fluent in both languages. Deirdre started her career in Europe where she worked for Artist Graphics and Quarterdeck Corporation, heading up one of the first multi-lingual technical support and customer service operations in Ireland. In 1995 she moved with Quarterdeck to their operation in Santa Monica where she was Director of Worldwide QA. Since then she has worked in senior management positions at other leading software and Internet companies. She was Director of QA at Geocities/Yahoo! and Overture (formerly GoTo.com) and was VP of Production at eHobbies. Deirdre transitioned to IT recruiting in 2000, when she founded Rhino Recruiting with a commitment to sourcing quality candidates and excellence in service. Deirdre and her family moved to Colorado in 2008 where she took a career break to focus on her family. In 2013 she joined the team of Creative Alignments to assist with their recruiting efforts in the Fort Collins area. Deirdre has a Bachelor of Science degree in education sciences.
+
+
+
+<br /><br />
+                    Email at <a href="mailto:dee@creativealignments.com">dee@creativealignments.com</a> 
+                    </div>
+
+
+
+            <div style="clear:left;width:100%;height:25px;"></div>
+
+                     <div style="width:100%;"><div style="margin: 0 auto;"><a href="our_team.html" target='_self' data-role='button' data-inline='true' data-mini='true' data-icon='arrow-l' data-theme='a'>back to team</a></div></div>
+
+            <div style="clear:left;width:100%;height:25px;"></div>
+
+
+	</div>
+
+    <div data-role="footer" data-theme="b">
+
+        <h1 id="footer">&#169; 2013 Creative Alignments</h1>
+
+    </div><!-- /footer -->
+
+    </div><!-- /page -->
+
+
+    </form>
+</body>
+</html>

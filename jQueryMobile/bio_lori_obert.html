@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <title>Creative Alignments | Lori Obert</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="css/themes/CreativeAlignments.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile.structure-1.3.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).bind("mobileinit", function () {
+            $.mobile.loadingMessage = false;
+        });
+
+        function redirect(url) {
+            location.href = url;
+        }
+    </script> 
+
+    <style type="text/css">
+    /* override style */
+    
+.ui-header .ui-title, .ui-footer .ui-title {
+    /*font-size:20px;*/
+    /* top right/left bottom */
+    margin: 0.6em 2% 0.8em;
+}
+
+.ui-header-fixed, .ui-footer-fixed {
+    /*position: relative;*/
+}
+    
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+    <div data-role="page" data-theme="a">
+
+
+    <div data-role='header' style="">  
+        <!-- <h1>Creative Alignments</h1> -->
+        <img src="../images/creative_alignments_logo.jpg" onclick="redirect('index.html')" style="width:100%;border:0;" />
+    </div>
+
+	<div data-role="content" style="clear:left; background-color:White;">
+
+
+            <div><h2 style="color:#0075b4;">Lori Obert</h2></div>
+
+                    
+            <div style="clear:left;width:100%;padding-bottom:20px;">
+                    <h4>Senior Recruiter</h4>
+                    Lori brings a unique blend of skills to Creative Alignments. She recruited primarily in the pharmaceutical industry for Management Recruiters International  and as a sales specialist for Johnson & Johnson, where she assisted with the recruiting, hiring, and training of new sales representatives. Lori also has a strong writing background, having worked for Channel 9 News as a writer and producer. At Creative Alignments, she has conducted searches for a variety of roles including IT related positions, finance & accounting, and sales positions for natural food companies.<br /><br />
+
+Lori has a Bachelor of Science Degree in journalism with honors from the University of Colorado and a Master of Arts degree in International Communication from American University.
+
+
+
+
+<br /><br />
+                    Email at <a href="mailto:lor@creativealignments.com">lori@creativealignments.com</a>  
+                    </div>
+
+
+
+            <div style="clear:left;width:100%;height:25px;"></div>
+
+                     <div style="width:100%;"><div style="margin: 0 auto;"><a href="our_team.html" target='_self' data-role='button' data-inline='true' data-mini='true' data-icon='arrow-l' data-theme='a'>back to team</a></div></div>
+
+            <div style="clear:left;width:100%;height:25px;"></div>
+
+
+	</div>
+
+    <div data-role="footer" data-theme="b">
+
+        <h1 id="footer">&#169; 2013 Creative Alignments</h1>
+
+    </div><!-- /footer -->
+
+    </div><!-- /page -->
+
+
+    </form>
+</body>
+</html>

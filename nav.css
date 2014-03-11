@@ -1,0 +1,227 @@
+
+/*
+ * ----------------------------------------- MAIN navigation bar -----------------------------------------
+ */
+#navigation {
+	width:750px;
+    height:39px;
+    vertical-align:middle;
+    background-image:url(images/nav_bkgrd_middle.gif);
+    background-repeat:repeat-x;
+    background-color:#ab343a; 
+}
+
+#openpositions-cell a:link, #openpositions-cell a:visited, #openpositions-cell a:active {
+    color:#000;
+}
+#openpositions-cell a:hover {
+    text-decoration: none;
+	color: #fba714;
+}
+.openpositions a {
+    color:White;
+}
+.openpositions a:hover {
+    text-decoration: none;
+	color: #333;
+}
+#navigation a {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#navigation a:link, #navigation a:visited, #navigation a:active {
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing:1px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight:bold;
+	height:29px;
+}
+/*#navigation a.contact {
+	clear: right;
+}*/
+#navigation a:hover {
+	text-decoration: none;
+	color: #fba714;
+}
+#navigation a.openpositions:hover {
+	text-decoration: none;
+	color: #333;
+}
+
+.nav {
+    float:left;
+    height:39px;
+}
+
+.navdots {
+    float:left;
+    height:39px;
+    width:6px;
+    background-color:#ab343a;
+}
+
+.navdots2 {
+    float:left;
+    height:39px;
+    width:1px;
+    background-color:#ab343a;
+}
+
+/*
+ * --- Safari 3 browser fix ---------------------------------------------
+ */
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+    #navigation a {
+	    padding-left: 8px;
+	    padding-right: 7px;
+    }
+    #navigation a.contact {
+	    padding-right: 15px;
+    }
+}
+
+/*.nav {
+	background-color: #FFFFFF;
+	height: 17px;
+	padding-left: 23px;
+}
+.nav div{
+	float: left;
+	text-align: center;
+	height: 26px;
+	padding-top: 2px;
+	padding-bottom:2px;
+}
+.subnav {
+	padding-left: 23px;
+}
+.subnav div{
+	float: left; 
+    position:relative;
+}
+.nav a {
+	color: #000000;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: normal;
+}
+.nav a:link, nav a:visited {
+	color: #000000;
+}
+.nav a:hover {
+	text-decoration: underline;
+}
+.nav a:active {
+	color: #68FF3E;
+}*/
+
+#index-cell  { float:left;width:130px; height:29px; text-align:center; padding-top:6px; }
+#aboutus-cell  { float:left;width:130px; height:29px; text-align:center; padding-top:6px; }
+#leadership-cell  { float:left;width:113px; height:29px; text-align:center;padding-top:6px;}
+#aboutus2-cell  { float:left;width:113px; height:29px; text-align:center;padding-top:6px;}
+#services-cell  { float:left;width:135px; height:29px; text-align:center;padding-top:6px;}
+#whyus-cell  { float:left;width:127px; height:29px; text-align:center;padding-top:6px;}
+#contactus-cell  { float:left;width:155px; height:29px; text-align:center;padding-top:6px;}
+#openpositions-cell  { float:left;width:195px; height:29px; text-align:center;padding-top:6px;margin-left:14px;}
+
+a.home, a.index, a.aboutus, a.leadership, a.aboutus2, a.services, a.whyus, a.contactus, a.openpositions {
+	height:29px;
+}
+
+/* nav highlight */
+body#home a.home, body#index a.index, body#aboutus a.aboutus, body#leadership a.leadership, body#aboutus2 a.aboutus2, body#services a.services, body#whyus a.whyus, body#contactus a.contactus {
+	color: #e6a71c;
+}
+
+/* slide out sub-menu */
+/*
+.dropmenu, .options {
+	color: #000000;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	background-color: #ffffff;
+	}
+
+.dropmenu a {
+	color: #000000;
+	padding-top: 7px;
+	padding-left: 10px;
+	text-decoration: none;
+	background-color: transparent;
+	font-weight: normal;
+	}
+
+.dropmenu a:link {
+		color: #000000;
+		padding-top: 7px;
+	    padding-left: 10px;
+		text-decoration: none;
+		background-color: transparent;
+	}
+.dropmenu a:visited {
+		color: #666666;
+		text-decoration: none;
+	}
+
+.dropmenu a:hover {
+		text-decoration:none;
+		color: #d21420;
+	}
+	
+.dropmenu a:active {
+		text-decoration:none;
+		color: #000000
+	}*/
+/* END OF NAV STYLES */
+
+
+
+
+/* default link style */
+a {
+	color: #5E5E5E;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:link, nav a:visited {
+	color: #5E5E5E;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	color: #5E5E5E;
+}
+.white-link a {
+	color: #FFFFFF;
+	font-weight: normal;
+}
+.hr-line {
+	background-image: url(images/hr.gif);
+	height: 7px;
+	margin-right: 32px;
+	margin-left: 32px;
+	margin-top: 10px;
+	background-repeat: repeat-x;
+	margin-bottom: 8px;
+}
+.hr-line-dash {
+	height: 1px;
+	border-top-width: 1px;
+	border-top-style: dashed;
+	border-top-color: #CCCCCC;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.clear  {
+	clear: both;
+}
+.spacer {
+	height: 15px;
+}
+

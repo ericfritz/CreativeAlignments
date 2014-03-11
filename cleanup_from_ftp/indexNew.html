@@ -1,0 +1,234 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Creative Alignments | Home</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<script type="text/javascript" src="js/detectmobilebrowser.js"></script>
+<script type="text/javascript" src="js/browserDetection.js"></script>
+<script type="text/javascript">
+    // add separate style sheet for chrome or firefox because web fonts dont look good in these non-anti-alias browsers
+
+    if (BrowserDetect.OS == 'Windows' && (BrowserDetect.browser == 'Firefox' || BrowserDetect.browser == 'Chrome')) {
+
+        //alert("You are using Windows and Firefox/Chrome");
+
+        document.write('<link rel="stylesheet" type="text/css" href="commonChromeFirefox.css" />')
+        document.write('<link rel="stylesheet" type="text/css" href="navChromeFirefox.css" />');
+    }
+    else {
+        document.write('<link rel="stylesheet" type="text/css" href="commonNew.css" />')
+        document.write('<link rel="stylesheet" type="text/css" href="navNew.css" />');
+    }
+
+</script>
+
+
+<link href="jcarousel.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+    
+<script type="text/javascript" language="javascript">
+
+    jQuery(document).ready(function () {
+
+        jQuery('#mycarousel').jcarousel({
+            wrap: 'circular',
+            visible: 3,
+            scroll: 3,
+            auto: 3,
+            animation: 1100,
+            size: 28
+        });
+    });
+
+    function redirect(url) {  
+        location.href = url;  
+    }
+
+</script>
+
+<script type="text/javascript" language="javascript" src="js/ypSlideOutMenusC.js"></script>
+<script type="text/javascript" language="javascript">
+    //This sets the size and position of each drop-down for all others- left, top, width, height.
+    new ypSlideOutMenu("menu1", "down", 332, 0, 515, 30);
+    new ypSlideOutMenu("menu2", "down", 198, 0, 680, 30);
+    new ypSlideOutMenu("menu3", "down", 444, 0, 260, 30);
+</script>
+
+<script type="text/javascript" src="//use.typekit.net/dvf0zmt.js"></script>
+<script type="text/javascript">    try { Typekit.load(); } catch (e) { }</script>
+
+</head>
+
+<body id="index">
+
+<div id="homecontainer">
+
+    <div id="header">
+        <div id="logo"><a href="index.html" class="home"><img src="images/creative_alignments_logo.jpg" alt="creative alignments"/></a></div>
+
+        <div id="navigation">        
+            <div style="float:left;"><img src="images/nav_bkgrd_left2.gif" alt="" /></div>
+            <div class="nav">
+               <div id="index-cell"><a href="index.html" class="index" >HOME</a></div>
+               <div id="services-cell" onmouseover="ypSlideOutMenu.showMenu('menu2')" onmouseout="ypSlideOutMenu.hideMenu('menu2')"><a href="services.html" class="services"">SERVICES</a></div>
+               <div id="aboutus-cell" onmouseover="ypSlideOutMenu.showMenu('menu1')" onmouseout="ypSlideOutMenu.hideMenu('menu1')"><a href="about.html" class="aboutus">ABOUT</a></div>
+               
+               <div id="portfolio-cell" onmouseover="ypSlideOutMenu.showMenu('menu3')" onmouseout="ypSlideOutMenu.hideMenu('menu3')"><a href="clients.html" class="portfolio"">CLIENTS</a></div>
+               <div id="contactus-cell"><a href="contact.html" class="contactus">CONTACT</a></div>
+               <div id="openpositions-cell" style="background-image:url(images/nav_bkgrd_middle_open.gif);background-repeat:repeat-x;"><a href="featured_jobs.html" class="openpositions" style="line-height:22px;">FEATURED JOBS</a></div>
+            </div>
+            <div style="float:right;"><img src="images/nav_bkgrd_right2.gif" alt="" /></div>
+        </div>
+
+        <div id="subnav">
+        
+        <div id="menu1Container" style="visibility: hidden;height:28px; "> 
+            <div id="menu1Content" class="dropmenu"  style="background-color:#a9343a;"> 
+                <div class="options">
+	                <div onclick="redirect('our_story.html');" class="subnav" style="width:150px;clear:left;">OUR STORY</div>
+                    <div onclick="redirect('our_team.html');" class="subnav" style="width:155px;">OUR TEAM</div>
+                    <div onclick="redirect('our_alliances.html');" class="subnav" style="width:180px;">OUR ALLIANCES</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="menu2Container" style="visibility: hidden;height:28px; "> 
+            <div id="menu2Content" class="dropmenu"  style="background-color:#a9343a;"> 
+                <div class="options">
+	                <div onclick="redirect('ruru_run.html');" class="subnav" style="width:180px;clear:left;">RAMPING UP NOW</div>
+                    <div onclick="redirect('ruru_jog.html');" class="subnav" style="width:260px;">JUGGLING ORDINARY GROWTH</div>
+                    <div onclick="redirect('ruru_walk.html');" class="subnav" style="width:210px;">WHILE ALL LOOKS KALM</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="menu3Container" style="visibility: hidden;height:28px; "> 
+            <div id="menu3Content" class="dropmenu"  style="background-color:#a9343a;"> 
+                <div class="options">
+	                <div onclick="redirect('clients_say.html');" class="subnav" style="width:250px;clear:left;">WHAT OUR CLIENTS SAY</div>
+                    <!--<div onclick="redirect('case_studies.html');" class="subnav" style="width:165px;">CASE STUDIES</div>-->
+                </div>
+            </div>
+        </div>
+        
+        
+        </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div id="main" style="">
+
+    	<div id="innerMain">
+
+            <div style="float:left;padding-left:31px;top:-27px;position:relative;width:137px;height:343px;"><img src="images/ruru/upside_down.png" alt="" /></div>
+
+            <div style="float:left;">
+
+            <div><h1>We have turned traditional recruiting on its head.</h1></div>
+
+            <div style="clear:left;width:720px;height:105px; background-image:url('images/home_background_gray_box.gif'); padding-left:25px;padding-top:17px;padding-right:10px;">
+                <div><h4>Unlike the traditional contingency model of recruiting, we take no commission and no percentage of salaries. Instead, our unique time and materials approach allows us to truly align with our clients, making the experience of growing your team smoother, more efficient, and ultimately more cost-effective.</h4></div>
+                <!--<div style="padding-top:12px;"><h4>With creativity, dedication, intelligence, and deep expertise, we find the right <br />hires for our clients while saving them time, hassles, and money.</h4>And through our hourly billing model, our clients pay for what they need, when they need it.</div>-->
+            </div>
+
+            <div style="clear:left;padding-top:18px;">
+                <div style="float:left;width:389px;"><img src="images/ruru/ruru_walk_jog_run.jpg" alt="ruru" /></div>
+                <div style="float:right;width:365px;padding-left:15px;padding-top:25px;">                    <div style="clear:right;float:right;width:345px;padding-right:15px;padding-top:5px;"><h2>Recruiting at your pace</h2></div>
+                    <div style="clear:right;float:right;width:277px;padding-right:15px;padding-top:15px;"><h3>(and even your place)</h3></div>
+                    <div class="redMuseoNoBold15" style="clear:right;float:right;width:265px;padding-right:18px;padding-top:15px; cursor: pointer;" onclick="redirect('services.html');">See RuRu RUN, JOG and WALK here »</div>
+                </div>
+            </div>
+
+            </div>
+
+            <div style="clear:left;height:95px;width:100%;border-top:1px solid #676767;">
+            <div style="float:left;padding-top:22px;padding-left:30px;"><img src="images/finding_keepers2.jpg" alt="" /></div>
+            <div style="float:left;padding-top:42px;padding-left:32px;"><img src="images/for_clients_such_as.gif" alt="" /></div>
+            <div style="float:left;padding-top:15px;padding-left:20px;width:365px;height:70px;">
+                
+                <ul id='mycarousel' class='jcarousel-skin-tango'>
+
+                    <li><img src='client_logos/34Degrees.jpg' width="120" height="70" alt="" /></li>
+                    <li><img src='client_logos/acm.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/bhakti_chai.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/ca_technologies.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/colographic.gif' width="120" height="70" alt="" /></li>
+
+                     <li><img src='client_logos/Connect_First.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/countryside.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/crocs.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/egg_strategy.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/gnip.gif' width="120" height="70" alt="" /></li>
+
+                     <li><img src='client_logos/greenhouse_partners.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/made_in_nature.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/madhava.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/mentor_training.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/muir_medical.gif' width="120" height="70" alt="" /></li>
+
+                     <li><img src='client_logos/natural_food_works.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/nimsoft.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/northwestern.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/operational_systems_inc.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/rally_software.png' width="120" height="70" alt="" /></li>
+
+                     <li><img src='client_logos/Real_Dose_Nutrition.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/sagacent.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/solidfire.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/snap_engage.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/spin.gif' width="120" height="70" alt="" /></li>
+
+                     <li><img src='client_logos/sterling_rice_group.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/summit_analytical.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/Symplified.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/tesser.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/tool_studios.gif' width="120" height="70" alt="" /></li>
+
+                     <li><img src='client_logos/udis.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/vermilion.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/vertiba.gif' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/virsage.png' width="120" height="70" alt="" /></li>
+                     <li><img src='client_logos/vision_link.png' width="120" height="70" alt="" /></li>
+                     
+                     
+                     
+                     
+                     
+                    
+
+                </ul>
+
+            </div>
+            </div>
+
+    	
+
+   
+                   <!-- Footer -->
+                   <div id="footerspacer" style="clear:both;width:100%;height:28px;padding-top:0px;background-color:#e8a61c;">
+                    <div style="padding-top:6px;">
+                       <div id="phone" style="line-height:18px;">303.835.9066</div>
+                       <div id="email"><a href="mailto:info@creativealignments.com" style="text-decoration:none;line-height:18px;">info@creativealignments.com</a></div>
+                       <div id="address" style="line-height:18px;">4760 Walnut St, Suite 106, Boulder, CO 80301</div>
+                       <div id="copyright" style="line-height:18px;">&#169; 2013 Creative Alignments</div>
+                       </div>
+                   </div>
+
+              </div><!-- end of innermain container -->
+
+   </div><!-- end of main container -->
+
+   <!-- Social Media -->
+   <div style="clear:left;padding-left:20px;padding-top:18px;">
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://www.facebook.com/pages/Creative-Alignments/195434367163626?ref=tn_tinyman"><img src="images/facebook.jpg" /></a></div>
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://twitter.com/#!/CArecruiting"><img src="images/twitter.jpg" /></a></div>
+    <div style="float:left;padding-right:10px;"><a target="_blank" href="http://www.linkedin.com/company/creative-alignments"><img src="images/linkedin.jpg" /></a></div>
+   </div>
+
+</div><!-- End of homecontainer -->
+
+</body>
+</html>
